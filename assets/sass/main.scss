@@ -1,0 +1,22 @@
+@import 'vendors/bootstrap-4.3.1/bootstrap';
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/base';
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/contacto';
+@import 'layout/header';
+@import 'layout/home-section';
+@import 'layout/trabajos';
+
+@import 'components/buttons';
+
+@import 'pages/pages';
+
+@import 'themes/themes';
+
+
+
