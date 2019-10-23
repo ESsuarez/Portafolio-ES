@@ -7591,10 +7591,97 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
+  background-color: #f6f6f6; }
+
+body {
   margin: 0px;
   padding: 0px; }
 
 img {
   width: 100vw; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+.header__nav {
+  padding: 20px 60px;
+  font-size: 0.9rem;
+  font-weight: 700; }
+.header__logo {
+  width: 20px; }
+.header .st0 {
+  fill: #1b1b1b; }
+
+@media (max-width: 480px) {
+  .header__nav {
+    background-color: #ffffff; } }
+.home {
+  padding-top: 120px;
+  padding-left: 60px; }
+  .home__linea {
+    width: 40px;
+    height: 8px;
+    background-color: #6C6E70;
+    margin-bottom: 30px;
+    margin-left: 15px; }
+  .home__h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+    color: #313131; }
+  .home__ui-ux {
+    color: #2CB7FF; }
+  .home__p {
+    margin-bottom: 50px;
+    font-family: "Bitter", serif;
+    font-style: italic; }
+  .home__button {
+    padding-left: 30px; }
+
+.name {
+  position: fixed; }
+  .name p {
+    margin: 80px 0px 0px 63px;
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 12px;
+    font-family: "Bitter", serif;
+    font-style: italic;
+    height: max-content; }
+  .name__line {
+    height: 100px;
+    width: 1px;
+    background-color: #6C6E70;
+    position: absolute;
+    margin: 183px 0px 0px 70px; }
+
+@media (max-width: 480px) {
+  .home {
+    padding-left: 15px; }
+    .home__h1 {
+      font-size: 2rem; } }
+.work {
+  height: 800px; }
+
+.button {
+  border-radius: 30px;
+  border: 2px solid #313131;
+  font-weight: 700;
+  color: #313131; }
+  .button:hover {
+    background-color: #313131;
+    color: #2CB7FF; }
+
+.btn-dark {
+  background-color: #2CB7FF;
+  border: none;
+  color: #ffffff;
+  margin-left: 20px;
+  -webkit-box-shadow: 0px 10px 7px -6px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 0px 10px 7px -6px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 10px 7px -6px rgba(0, 0, 0, 0.39); }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+.header{
+    &__nav{
+        padding:20px 60px;
+        font-size: 0.9rem;
+        font-weight: $bold;
+    }
+
+     &__logo{
+       width: 20px;
+     }
+
+   .st0{
+       fill:$primary-black;
+   }
+}
+
+@media (max-width: 480px) {
+  
+    .header{
+        &__nav{
+            background-color: $white;
+        }
+    }
+    
+  }

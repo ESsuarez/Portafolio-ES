@@ -1,0 +1,20 @@
+.button{
+    border-radius: 30px;
+    border: 2px solid $second-black;
+    font-weight: $bold;
+    color:$second-black;
+    &:hover{
+        background-color: $second-black;
+        color:$sky-blue;
+    }
+}
+
+.btn-dark{
+    background-color: $sky-blue;
+    border:none;
+    color:$white;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 10px 7px -6px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 10px 7px -6px rgba(0,0,0,0.39);
+    box-shadow: 0px 10px 7px -6px rgba(0,0,0,0.39);
+}
