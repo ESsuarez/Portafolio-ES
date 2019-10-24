@@ -3,6 +3,7 @@
         padding:20px 60px;
         font-size: 0.9rem;
         font-weight: $bold;
+        
     }
 
      &__logo{
@@ -10,7 +11,7 @@
      }
 
    .st0{
-       fill:$primary-black;
+       fill:$primary-pink;
    }
 }
 
@@ -18,7 +19,7 @@
   
     .header{
         &__nav{
-            background-color: $white;
+            background-color: $platinum;
         }
     }
     

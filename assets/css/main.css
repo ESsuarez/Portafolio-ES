@@ -7591,14 +7591,14 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  background-color: #f6f6f6; }
-
-body {
   margin: 0px;
   padding: 0px; }
 
 img {
   width: 100vw; }
+
+body {
+  background-color: #f6f6f6; }
 
 body {
   font-family: "Poppins", sans-serif; }
@@ -7610,14 +7610,14 @@ body {
 .header__logo {
   width: 20px; }
 .header .st0 {
-  fill: #1b1b1b; }
+  fill: #ff2664; }
 
 @media (max-width: 480px) {
   .header__nav {
-    background-color: #ffffff; } }
+    background-color: #f6f6f6; } }
 .home {
   padding-top: 120px;
-  padding-left: 60px; }
+  padding-left: 7%; }
   .home__linea {
     width: 40px;
     height: 8px;
@@ -7632,14 +7632,42 @@ body {
     margin-bottom: 40px;
     color: #313131; }
   .home__ui-ux {
-    color: #2CB7FF; }
+    color: #ff2664; }
   .home__p {
     margin-bottom: 50px;
     font-family: "Bitter", serif;
-    font-style: italic; }
+    font-style: italic;
+    line-height: 2; }
   .home__button {
     padding-left: 30px; }
-
+  .home__works-title {
+    color: #ff2664;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-bottom: 50px; }
+  .home__works-tittle-line-f {
+    width: 50px;
+    height: 2px;
+    background-color: #6C6E70;
+    display: inline-block; }
+  .home__down-icon {
+    width: 50px;
+    padding-left: 15px;
+    margin-top: 20px;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate; }
+    .home__down-icon .st0 {
+      fill: #ff2664; }
+@keyframes bounce {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-15px); } }
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px); }
+  to {
+    transform: translateY(-15px); } }
 .name {
   position: fixed; }
   .name p {
@@ -7660,12 +7688,27 @@ body {
 
 @media (max-width: 480px) {
   .home {
-    padding-left: 15px; }
+    padding: 120px 30px; }
     .home__h1 {
       font-size: 2rem; } }
 .work {
+  padding-top: 200px;
+  padding-left: 8%;
   height: 800px; }
+  .work__img-anew {
+    padding: 0px;
+    -webkit-box-shadow: -48px 40px 52px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: -48px 40px 52px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: -48px 40px 52px -1px rgba(0, 0, 0, 0.21); }
+  .work__works-title {
+    color: #ff2664;
+    font-style: italic;
+    padding-bottom: 10px;
+    margin-bottom: 50px; }
 
+@media (max-width: 480px) {
+  .work {
+    padding: 120px 30px; } }
 .button {
   border-radius: 30px;
   border: 2px solid #313131;

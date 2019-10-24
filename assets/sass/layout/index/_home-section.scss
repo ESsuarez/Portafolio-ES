@@ -1,6 +1,6 @@
 .home{
     padding-top:120px;
-    padding-left:60px;
+    padding-left:7%;
 
     &__linea{
         width: 40px;
@@ -20,18 +20,65 @@
     }
 
     &__ui-ux{
-        color:$sky-blue;
+        color:$primary-pink
     }
 
     &__p{
         margin-bottom: 50px;
         font-family: $bitter;
         font-style:italic;
+        line-height: 2;
     }
 
     &__button{
         padding-left:30px;
     }
+
+    &__works-title{
+        color: $primary-pink;
+        font-style: italic;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        
+    }
+
+    &__works-tittle-line-f{
+        width: 50px;
+        height: 2px;
+        background-color:$third-black;
+        display: inline-block;
+    }
+
+    &__down-icon{
+        width: 50px;
+        padding-left: 15px;
+        margin-top: 20px;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 1s infinite alternate;
+        .st0 {
+            fill: $primary-pink;
+            
+        }
+    }
+
+    @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+      @-webkit-keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+
+
 }
 
 .name{
@@ -45,6 +92,7 @@
         font-family: $bitter;
         font-style: italic;
         height: max-content;
+        
     }
 
     &__line{
@@ -59,7 +107,7 @@
 @media (max-width: 480px) {
   
     .home {
-        padding-left:15px;
+        padding: 120px 30px;
         &__h1{
             font-size: $large;
         }
