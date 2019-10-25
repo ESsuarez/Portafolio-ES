@@ -28,18 +28,11 @@
         font-family: $bitter;
         font-style:italic;
         line-height: 2;
+        color:$second-black;
     }
 
     &__button{
         padding-left:30px;
-    }
-
-    &__works-title{
-        color: $primary-pink;
-        font-style: italic;
-        padding-bottom: 10px;
-        margin-bottom: 50px;
-        
     }
 
     &__works-tittle-line-f{
