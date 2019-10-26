@@ -5,3 +5,17 @@ html{
 body{
     background-color:$platinum;
 }
+
+.body__backgrund{
+    overflow: hidden;
+    width: 100%;
+}
+
+.body__svg-bg{
+    position: absolute;
+    width: 50%;
+    margin-top: 500px;
+    right: -200px;
+    fill: $sky-blue;
+    z-index: -2;
+}

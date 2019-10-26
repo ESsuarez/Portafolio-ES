@@ -1,21 +1,26 @@
 .work{
     padding-top:200px;
     padding-left:8%;
-    height: 800px;
-    color:$second-black;
+    color:$platinum;
+
+    &__bg{
+        background-size:cover;
+        background-color: $primary-barney;
+    }
 
     &__img-anew{
         padding:0px;
-        -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
-        -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
-        box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        -webkit-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+        -moz-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+         box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+        
         margin-bottom: 200px;
         transition: box-shadow .3s;
       
         &:hover{
-            -webkit-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
-            -moz-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
-            box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+            -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+            -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+            box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
         }
     }
 
@@ -40,7 +45,7 @@
         font-weight: $regular;
         font-family: $bitter;
         font-style: italic;
-        color: $third-black;
+        color: $platinum;
     }
 }
 

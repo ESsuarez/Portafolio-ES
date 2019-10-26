@@ -20,7 +20,7 @@
     }
 
     &__ui-ux{
-        color:$primary-pink
+        color:$primary-barney;
     }
 
     &__p{
@@ -46,10 +46,11 @@
         width: 50px;
         padding-left: 15px;
         margin-top: 20px;
+        margin-bottom: 75px;
         animation: bounce 1s infinite alternate;
         -webkit-animation: bounce 1s infinite alternate;
         .st0 {
-            fill: $primary-pink;
+            fill: $primary-barney;
             
         }
     }
@@ -85,13 +86,14 @@
         font-family: $bitter;
         font-style: italic;
         height: max-content;
+        color: $white;
         
     }
 
     &__line{
         height: 100px;
         width: 1px;
-        background-color: $third-black;
+        background-color: $white;
         position: absolute;
         margin:183px 0px 0px 70px;
     }
