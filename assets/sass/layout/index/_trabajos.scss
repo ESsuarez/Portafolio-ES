@@ -2,25 +2,46 @@
     padding-top:200px;
     padding-left:8%;
     color:$platinum;
+    position: relative;
+    z-index: 50;
+
+    &__p{
+        font-size: 20rem;
+        color: #ffffff33;
+        position: absolute;
+        font-weight: $black;
+        z-index: 0;
+    }
 
     &__bg{
-        background-size:cover;
-        background-color: $primary-barney;
+        
+        svg{
+            opacity: 0.7;
+            fill: $white;
+            right: -40px;
+            text-align: right;
+            position: fixed;
+            top: 30px;
+
+            .st0{fill:none;}
+        }
     }
 
     &__img-anew{
         padding:0px;
-        -webkit-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
-        -moz-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
-         box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+        border-radius: 20px;
+        -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+       
         
         margin-bottom: 200px;
         transition: box-shadow .3s;
       
         &:hover{
-            -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
-            -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
-            box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        -webkit-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+        -moz-box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
+         box-shadow: -43px 42px 60px -9px rgba(0,0,0,0.73);
         }
     }
 
@@ -36,7 +57,7 @@
         font-weight: $bold;
         font-size: $x-large;
         line-height: 0.8;
-        color:$sky-blue;
+        color:$primary-barney;
         padding-bottom: 28px;
     }
 
@@ -45,7 +66,7 @@
         font-weight: $regular;
         font-family: $bitter;
         font-style: italic;
-        color: $platinum;
+        color: $second-black;
     }
 }
 

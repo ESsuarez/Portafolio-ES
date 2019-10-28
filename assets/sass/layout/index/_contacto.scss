@@ -1,0 +1,111 @@
+.contact{
+    height: 800px;
+    padding-top: 300px;
+    padding-left:8%;
+    z-index: 1000;
+    position: relative;
+    text-align: left;
+    
+
+    &__h2{
+        font-weight: $bold;
+        font-size: 3rem;
+        color:$second-black;
+        margin-bottom: 10px;
+    }
+
+    P{
+        font-family:$bitter;
+        font-style: italic;
+        margin-bottom: 35px;
+    }
+
+    &__mail{
+        font-size: $large;
+        font-style: normal !important;
+        color: $third-black;
+        font-family: $poppins !important;
+        
+        span{
+            color:$primary-barney;
+        }
+    }
+
+    &__line{
+        width: 50px;
+        height: 5px;
+        background-color: $primary-barney;
+        margin: 33px 0px 33px 3px;
+    }
+
+    &__iconos-rrss{
+        list-style: none;
+        padding-left: 3px;
+
+        li{
+            display: inline-block;
+        }
+
+        i{
+            -webkit-box-shadow: -5px 4px 5px -4px rgba(0,0,0,0.39);
+            -moz-box-shadow: -5px 4px 5px -4px rgba(0,0,0,0.39);
+            box-shadow: -5px 4px 5px -4px rgba(0,0,0,0.39);
+        }
+
+        i:hover{
+            -webkit-box-shadow: -8px 11px 14px -4px rgba(0,0,0,0.39);
+            -moz-box-shadow: -8px 11px 14px -4px rgba(0,0,0,0.39);
+            box-shadow: -8px 11px 14px -4px rgba(0,0,0,0.39);
+            transition: box-shadow .3s;
+        }
+
+        .fa-behance,.fa-linkedin-in{
+            color: $white;
+            background-color:$primary-barney;
+            padding: 10px 9px;
+            border-radius: 30px;
+        }
+
+        .fa-linkedin-in{
+            padding: 10px 11px;
+        }
+
+    }
+    
+    &__down-icon{
+        width: 50px;
+        padding-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 75px;
+        border: 1px solid $primary-barney;
+        border-radius: 53px;
+        padding: 10px;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 1s infinite alternate;
+        .st0 {
+            fill: $primary-barney;
+            
+        }
+    }
+
+    &__rotate{
+        transform: rotate(180deg);
+    }
+
+    @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+      @-webkit-keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+}

@@ -3,8 +3,13 @@ html{
 }
 
 body{
-    background-color:$platinum;
+    background-color: $white;
+    transition: background-color 0.7s ease;
 }
+
+.color-indigo {
+    background-color:#ededed;
+  }
 
 .body__backgrund{
     overflow: hidden;

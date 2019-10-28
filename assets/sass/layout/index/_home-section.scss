@@ -1,6 +1,8 @@
 .home{
     padding-top:120px;
     padding-left:7%;
+    position: relative;
+    z-index: 900;
 
     &__linea{
         width: 40px;
@@ -21,6 +23,7 @@
 
     &__ui-ux{
         color:$primary-barney;
+      
     }
 
     &__p{
