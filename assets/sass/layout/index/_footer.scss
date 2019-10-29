@@ -3,4 +3,41 @@
     p{
         text-align: center;
     }
+
+    &__down-icon{
+        width: 50px;
+        padding-left: 15px;
+        border: 2px solid $primary-barney;
+        border-radius: 53px;
+        padding: 10px;
+        margin-top: 70px;
+        margin-left: 30px;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 1s infinite alternate;
+        .st0 {
+            fill: $primary-barney;
+            
+        }
+    }
+    &__rotate{
+        transform: rotate(180deg);
+        height: 30px;
+    }
+
+    @keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
+      @-webkit-keyframes bounce {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-15px);
+        }
+      }
 }

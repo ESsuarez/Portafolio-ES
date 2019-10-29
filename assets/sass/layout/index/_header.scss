@@ -16,12 +16,27 @@
    }
 }
 
+.colapse-lg{
+    text-align: right;
+    width: 137px;
+    padding: 15px;
+    background-color: $white;
+    border-radius: 10px 0px 10px 10px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255, 38, 100);
+    border-color: rgb(255, 38, 100);
+}
+
 @media (max-width: 480px) {
   
     .header{
         &__nav{
-            background-color: $platinum;
+            background-color: $white;
         }
     }
     
   }
+
+  
