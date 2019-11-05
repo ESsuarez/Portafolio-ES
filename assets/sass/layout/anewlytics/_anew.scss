@@ -1,0 +1,91 @@
+.anew{
+    padding: 0px;
+    margin: 0px;
+
+    &__bg{
+        background-image: url(../img/anewlytics.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    &__bg-black{
+        background-color: $second-black;
+        height: 100vh;
+        color: $platinum;
+        padding-top: 20vh;
+        padding-left: 17vw;
+        opacity: 0.98;  
+        
+
+        h1{
+            font-family: $poppins;
+            color: $sky-blue;
+            margin-bottom: 30px;
+            font-size: 5rem;
+        }
+
+        p{
+            font-family: $bitter;
+            font-size: 1rem;
+            font-weight: 300;
+            font-style: italic;
+            width: 400px;
+            line-height: 2;
+        }
+
+        div{
+            height: 2px;
+            width: 50px;
+            background-color: $primary-pink;
+            margin-top: 50px;
+        }
+    }
+}
+
+.name-anew{
+    position: absolute;
+    z-index: 800;
+    position: fixed;
+}
+
+.anew-resume{
+    height: 50vh;
+    background-color: $platinum;
+    z-index: 1000;
+
+    &__col{
+        padding: 17vh 11vw;
+        
+    }
+
+    h3{
+        font-family: $bitter;
+        color: $primary-pink;
+        font-size: 1em;
+        font-weight: $bold;
+    }
+
+    p{
+        font-family: $bitter;
+        color: $second-black;
+    }
+}
+
+.anew-monitor{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+.anew-problem{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+
+@media (max-width: 767px) {
+    
+    
+    
+  }

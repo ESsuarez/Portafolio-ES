@@ -1,5 +1,5 @@
 .home{
-    padding-top:120px;
+    padding-top:105px;
     padding-left:7%;
     position: relative;
     z-index: 900;
@@ -17,8 +17,7 @@
     &__h1{
         font-family: $poppins;
         font-size: $x-large;
-        font-weight: $bold;
-        line-height: 1;
+        
         margin-bottom: 40px;
         color:$second-black;
     }
@@ -80,7 +79,7 @@
 
 }
 
-.name{
+.name,.name-anew{
     position:fixed;
     p{
         margin:80px 0px 0px 63px;
@@ -91,14 +90,14 @@
         font-family: $bitter;
         font-style: italic;
         height: max-content;
-        color: $white;
+        color: $third-black;
         
     }
 
     &__line{
         height: 100px;
         width: 1px;
-        background-color: $white;
+        background-color: $third-black;
         position: absolute;
         margin:183px 0px 0px 70px;
     }

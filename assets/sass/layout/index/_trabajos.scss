@@ -16,7 +16,7 @@
     &__bg{
         
         svg{
-            opacity: 0.7;
+            opacity: 0.05;
             fill: $white;
             right: -40px;
             text-align: right;
@@ -29,7 +29,7 @@
 
     &__img-anew{
         padding:0px;
-        border-radius: 20px;
+        border-radius: 5px;
         -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
         -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
         box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
@@ -54,10 +54,9 @@
 
     &__h2{
         font-family: $poppins;
-        font-weight: $bold;
         font-size: $x-large;
         line-height: 0.8;
-        color:$primary-barney;
+        color:$sky-blue;
         padding-bottom: 28px;
     }
 
@@ -66,7 +65,7 @@
         font-weight: $regular;
         font-family: $bitter;
         font-style: italic;
-        color: $second-black;
+        color: $platinum;
     }
 }
 
