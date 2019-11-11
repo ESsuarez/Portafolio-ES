@@ -37,44 +37,32 @@
                     </g>
                 </svg>
             </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto colapse-lg" style="text-align: right;">
-                    <li class="nav-item" style="margin-top: 5px;">
-                        <a class="nav-link" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                    <span class="hamburger-inner"></span>
+                    </span>
+                    </button></a>
+                <div class="overlay-content">
+                    <a href="#">Trabajos</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contacto</a>
+                </div>
             </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <i class="menu-icon-burguer fas fa-bars"></i>
+            </span>
+
         </nav>
     </header>
     <section class="name-anew d-none d-lg-block">
         <p class="name__p">Edwin suarez</p>
         <div class="name__line"></div>
+
     </section>
-    <!--<div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-            <span class="hamburger-inner"></span>
-            </span>
-            </button></a>
-        <div class="overlay-content">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
+    <div class="back-button">
+        <i class="far fa-arrow-alt-circle-left"></i>
     </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">
-    </span>-->
     <section class="anew container-fluid">
         <div class="anew__bg">
             <div class="anew__bg-black col-sm-12 col-md-8">
@@ -84,10 +72,13 @@
                     usuario y centro de atención para mejorar servicios de atención, predecir fugas, reducir costos.</p>
                 <div></div>
             </div>
+            <div class="back-button">
+                <i class="far fa-arrow-alt-circle-left"></i>
+            </div>
         </div>
     </section>
     <section class="anew-resume container-fluid">
-       <div class="row">
+        <div class="row">
             <div class="anew-resume__col col-sm-12 col-md-6">
                 <h3>CLIENTE</h3>
                 <p>Anewlytics</p>
@@ -101,8 +92,133 @@
             </div>
         </div>
     </section>
-    <section class="anew-monitor container-fluid"></section>
-    <section class="anew-problem container-fluid"></section>
+    <section class="anew-monitor container-fluid">
+        <img class="img-fluid" src="../assets/img/mac.png" alt="">
+    </section>
+    <section class="anew-problem container-fluid">
+        <div class="anew-problem__cont col-sm-12 col-md-6 ml-auto">
+            <h3>PLANTEMAIENTO DE</h3>
+            <h2>PROBLEMA</h2>
+            <p>Anewlytics crecía y querían mi ayuda para cultivar la imagen de la compañía con el fin de ofrecer una
+                mejor experiencia. Con una plataforma operativa el 90% del esfuerzo fue dedicado al desarrollo
+                funcional, por ende el planteamiento visual que existía era muy pobre y debía ser replanteado
+                prácticamente desde cero.
+                Mi objetivo entonces era crear la imagen de una plataforma intuitiva, sencilla de usar que reflejara un
+                producto de vanguardia tecnológica.</p>
+            <div class="anew-problem__line"></div>
+        </div>
+    </section>
+    <section class="anew-goals container-fluid">
+        <h2>OBJETIVOS</h2>
+        <div class="row">
+            <div class="anew-goals__cont col-sm-12 col-md-6">
+                <div class="anew-goals__circle">
+                    <p>1</p>
+                </div>
+                <p class="anew-goals__p">Crear una plataforma amigable, fácil de usar que refleje lo innovador del
+                    producto.</p>
+            </div>
+            <div class="anew-goals__cont col-sm-12 col-md-6">
+                <div class="anew-goals__circle">
+                    <p>2</p>
+                </div>
+                <p class="anew-goals__p">Creación de un lineamiento gráfico acorde a la imagen corporativa.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="anew-goals__cont col-sm-12 col-md-6">
+                <div class="anew-goals__circle">
+                    <p>3</p>
+                </div>
+                <p class="anew-goals__p">Establecer confianza en el manejo y representación de datos.</p>
+            </div>
+            <div class="anew-goals__cont col-sm-12 col-md-6">
+                <div class="anew-goals__circle">
+                    <p>4</p>
+                </div>
+                <p class="anew-goals__p">Diferenciarnos de la competencia mediante innovación.</p>
+            </div>
+        </div>
+        <div class="anew-problem__line"></div>
+    </section>
+    <section class="anew-sketchs container-fluid">
+        <div class=" col-sm-12 col-md-6 ml-auto">
+            <h3>ALGUNOS</h3>
+            <h2>SKETCHES</h2>
+        </div>
+        <div class="anew-sketchs__img ">
+            <img class="img-fluid" src="../assets/img/sketches.png" alt="">
+        </div>
+        <div class="anew-problem__line" style="margin-left: 27px;"></div>
+    </section>
+    <section class="anew-wireframes container-fluid">
+        <div class="col-sm-12 col-md-6">
+            <h3>ALGUNOS</h3>
+            <h2>WIREFRAMES</h2>
+        </div>
+        <div class="anew-sketchs__img">
+            <img class="img-fluid" src="../assets/img/wireframe.png" alt="">
+        </div>
+        <div class="anew-problem__line"></div>
+    </section>
+    <section class="anew-problem problem-two container-fluid">
+        <div class="anew-problem__cont cont-two col-sm-12 col-md-6 ml-auto">
+            <h3>VISUALIACIÓN DE</h3>
+            <h2>DASHBOARD</h2>
+        </div>
+    </section>
+    <section class="anew-monitor container-fluid">
+        <img class="img-fluid" src="../assets/img/mac.png" alt="">
+    </section>
+    <section class="anew-goals container-fluid">
+        <h2>ESTILOS</h2>
+        <div class="row">
+            <!--<img class="col-6" src="../assets/img/estilos/Logo positivo.svg" alt="">
+            <img class="col-6" src="../assets/img/estilos/Logo negativo.svg" alt="">
+        </div>-->
+        <svg class="col-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592" height="681" viewBox="0 0 592 681">
+            <defs>
+              <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#00cbe0"/>
+                <stop offset="1" stop-color="#5683ff"/>
+              </linearGradient>
+              <clipPath id="clip-Logo_positivo">
+                <rect width="592" height="681"/>
+              </clipPath>
+            </defs>
+            <g id="Logo_positivo" data-name="Logo positivo" clip-path="url(#clip-Logo_positivo)">
+              <rect width="592" height="681" fill="#fff"/>
+              <g id="Grupo_10" data-name="Grupo 10" transform="translate(1 99)">
+                <path id="Sustracción_53" data-name="Sustracción 53" d="M114.5,206.97a102.835,102.835,0,0,1-40.287-8.133c-1.3-.548-2.6-1.132-3.882-1.736l8.32-14.41a5.012,5.012,0,0,0-1.8-6.814l4.8-8.309a71.094,71.094,0,0,0,32.854,7.938A72.036,72.036,0,0,0,117,31.477V0a103.467,103.467,0,0,1,70.686,176.656A103.176,103.176,0,0,1,114.5,206.97ZM46.72,181.695h0c-1.856-1.612-3.674-3.308-5.4-5.039a103.165,103.165,0,0,1-30.3-71.685H42.48a72.313,72.313,0,0,0,24.107,52.248l-5.514,9.55a5,5,0,0,0-6.8,1.847l-7.55,13.079ZM42.6,98.971H11.095A103.406,103.406,0,0,1,111,.028V31.519A71.876,71.876,0,0,0,42.6,98.97Z" transform="translate(180 63.029)" fill="url(#linear-gradient)"/>
+                <text id="Busca_-_Analiza_-_Predice" data-name="Busca - Analiza - Predice" transform="translate(198 415)" fill="#545454" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Busca - Analiza - Predice</tspan></text>
+                <text id="Anewlytics" transform="translate(117 349)" fill="#545454" font-size="51" font-family="SegoeUI, Segoe UI" letter-spacing="0.259em"><tspan x="0" y="0">Anewlytics</tspan></text>
+              </g>
+            </g>
+          </svg>
+          <svg class="col-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="592" height="681" viewBox="0 0 592 681">
+            <defs>
+              <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#00cbe0"/>
+                <stop offset="1" stop-color="#5683ff"/>
+              </linearGradient>
+              <clipPath id="clip-Logo_negativo">
+                <rect width="592" height="681"/>
+              </clipPath>
+            </defs>
+            <g id="Logo_negativo" data-name="Logo negativo" clip-path="url(#clip-Logo_negativo)">
+              <rect width="592" height="681" fill="#fff"/>
+              <rect id="Rectángulo_77" data-name="Rectángulo 77" width="592" height="682" transform="translate(1 -1)" opacity="0.89" fill="url(#linear-gradient)"/>
+              <g id="Grupo_10" data-name="Grupo 10" transform="translate(1 99)">
+                <path id="Sustracción_53" data-name="Sustracción 53" d="M114.5,206.97a102.835,102.835,0,0,1-40.287-8.133c-1.3-.548-2.6-1.132-3.882-1.736l8.32-14.41a5.012,5.012,0,0,0-1.8-6.814l4.8-8.309a71.094,71.094,0,0,0,32.854,7.938A72.036,72.036,0,0,0,117,31.477V0a103.467,103.467,0,0,1,70.686,176.656A103.176,103.176,0,0,1,114.5,206.97ZM46.72,181.695h0c-1.856-1.612-3.674-3.308-5.4-5.039a103.165,103.165,0,0,1-30.3-71.685H42.48a72.313,72.313,0,0,0,24.107,52.248l-5.514,9.55a5,5,0,0,0-6.8,1.847l-7.55,13.079ZM42.6,98.971H11.095A103.406,103.406,0,0,1,111,.028V31.519A71.876,71.876,0,0,0,42.6,98.97Z" transform="translate(180 63.029)" fill="#fff"/>
+                <text id="Busca_-_Analiza_-_Predice" data-name="Busca - Analiza - Predice" transform="translate(198 415)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Busca - Analiza - Predice</tspan></text>
+                <text id="Anewlytics" transform="translate(117 349)" fill="#fff" font-size="51" font-family="SegoeUI, Segoe UI" letter-spacing="0.259em"><tspan x="0" y="0">Anewlytics</tspan></text>
+              </g>
+            </g>
+          </svg>
+       
+        <div class="anew-problem__line"></div>
+    </section>
+
 
 
 

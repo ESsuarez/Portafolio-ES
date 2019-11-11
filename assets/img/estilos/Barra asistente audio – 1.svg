@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="968" height="1606" viewBox="0 0 968 1606">
+  <defs>
+    <filter id="Rectángulo_108" x="122" y="150" width="724" height="1381" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_60" x="89.5" y="148.5" width="750" height="1408" filterUnits="userSpaceOnUse">
+      <feOffset dx="-20" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_140" x="692" y="835" width="112" height="57" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_149" x="414" y="249" width="331" height="156" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_153" x="313" y="707" width="432" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-5"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_150" x="221" y="441" width="304" height="144" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-6"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_151" x="221" y="596" width="196" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-7"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_147" x="110.5" y="703.5" width="749" height="72" filterUnits="userSpaceOnUse">
+      <feOffset dy="-10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-8"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Barra_asistente_audio_1">
+      <rect width="968" height="1606"/>
+    </clipPath>
+  </defs>
+  <g id="Barra_asistente_audio_1" data-name="Barra asistente audio – 1" clip-path="url(#clip-Barra_asistente_audio_1)">
+    <rect width="968" height="1606" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_108)">
+      <rect id="Rectángulo_108-2" data-name="Rectángulo 108" width="706" height="1363" transform="translate(131 156)" fill="#3b3b3b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_60)">
+      <g id="Trazado_60-2" data-name="Trazado 60" transform="translate(132 156)" fill="#fff">
+        <path d="M 700 1362.5 L 0.5 1362.5 L 0.5 5 C 0.5 2.518666744232178 2.518666744232178 0.5 5 0.5 L 704.5 0.5 L 704.5 1358 C 704.5 1360.481323242188 702.4813232421875 1362.5 700 1362.5 Z" stroke="none"/>
+        <path d="M 5 1 C 2.7943115234375 1 1 2.7943115234375 1 5 L 1 1362 L 700 1362 C 702.2056884765625 1362 704 1360.205688476563 704 1358 L 704 1 L 5 1 M 5 0 L 705 0 L 705 1358 C 705 1360.761474609375 702.7613525390625 1363 700 1363 L 0 1363 L 0 5 C 0 2.238525390625 2.238525390625 0 5 0 Z" stroke="none" fill="#707070"/>
+      </g>
+    </g>
+    <rect id="Rectángulo_152" data-name="Rectángulo 152" width="705" height="606" transform="translate(132 157)" fill="#3b3b3b" opacity="0.04"/>
+    <line id="Línea_60" data-name="Línea 60" x2="171" transform="translate(131.5 76.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="Inspector_de_chats" data-name="Inspector de chats" transform="translate(131 57)" fill="#9e9c9c" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Inspector de chats</tspan></text>
+    <circle id="Elipse_100" data-name="Elipse 100" cx="24" cy="24" r="24" transform="translate(169 198)" fill="#ff6e95"/>
+    <g id="micro" transform="translate(175.115 205.479)">
+      <path id="Trazado_31" data-name="Trazado 31" d="M15.865,19.625a4.637,4.637,0,0,0,4.641-4.656l.016-9.312a4.656,4.656,0,0,0-9.312,0v9.312A4.65,4.65,0,0,0,15.865,19.625Zm10.865-4.656H24.091a8.053,8.053,0,0,1-8.226,7.916,8.053,8.053,0,0,1-8.226-7.916H5A10.839,10.839,0,0,0,14.312,25.4V30.49h3.1V25.4A10.839,10.839,0,0,0,26.729,14.969Z" transform="translate(2.76 0.552)" fill="#b52727"/>
+      <path id="Trazado_32" data-name="Trazado 32" d="M0,0H37.25V37.25H0Z" fill="none"/>
+    </g>
+    <line id="Línea_70" data-name="Línea 70" x2="453.5" transform="translate(226.5 872.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="lupa" transform="translate(175.563 832.49)">
+      <path id="Trazado_16" data-name="Trazado 16" d="M24.826,22.207H23.447l-.489-.471a11.367,11.367,0,1,0-1.222,1.222l.471.489v1.379l8.73,8.713,2.6-2.6Zm-10.477,0a7.857,7.857,0,1,1,7.857-7.857A7.847,7.847,0,0,1,14.35,22.207Z" transform="translate(2.238 2.238)" fill="#9e9c9c"/>
+      <path id="Trazado_17" data-name="Trazado 17" d="M0,0H41.906V41.906H0Z" fill="none"/>
+    </g>
+    <text id="X" transform="translate(669 857)" fill="#9e9c9c" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">X</tspan></text>
+    <text id="X-2" data-name="X" transform="translate(477 1205)" fill="#9e9c9c" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">X</tspan></text>
+    <text id="X-3" data-name="X" transform="translate(611 1205)" fill="#9e9c9c" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">X</tspan></text>
+    <text id="X-4" data-name="X" transform="translate(745 1205)" fill="#9e9c9c" font-size="18" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">X</tspan></text>
+    <text id="Realiza_una_busqueda" data-name="Realiza una busqueda" transform="translate(227 858)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Realiza una busqueda</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_140)">
+      <g id="Rectángulo_140-2" data-name="Rectángulo 140" transform="translate(701 835)" fill="#545454" stroke="#707070" stroke-width="1">
+        <rect width="94" height="38" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="93" height="37" rx="4.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectángulo_142" data-name="Rectángulo 142" transform="translate(369 1179)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="94" height="38" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="37" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_145" data-name="Rectángulo 145" transform="translate(239 1179)" fill="none" stroke="#707070" stroke-width="2">
+      <rect width="94" height="38" rx="5" stroke="none"/>
+      <rect x="1" y="1" width="92" height="36" rx="4" fill="none"/>
+    </g>
+    <g id="Rectángulo_143" data-name="Rectángulo 143" transform="translate(503 1179)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="94" height="38" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="37" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectángulo_144" data-name="Rectángulo 144" transform="translate(637 1179)" fill="#707070" stroke="#707070" stroke-width="1">
+      <rect width="94" height="38" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="93" height="37" rx="4.5" fill="none"/>
+    </g>
+    <text id="Buscar" transform="translate(718 860)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Buscar</tspan></text>
+    <text id="Tag_1" data-name="Tag 1" transform="translate(391 1206)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Tag 1</tspan></text>
+    <text id="Add" transform="translate(267 1206)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Add</tspan></text>
+    <text id="Tag_2" data-name="Tag 2" transform="translate(551 1206)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-25.093" y="0">Tag 2</tspan></text>
+    <text id="Tag_3" data-name="Tag 3" transform="translate(685 1206)" fill="#c9c9c9" font-size="20" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-25.093" y="0">Tag 3</tspan></text>
+    <text id="Highlights" transform="translate(237 988)" fill="#9e9c9c" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Highlights</tspan></text>
+    <text id="Markers" transform="translate(237 1064)" fill="#9e9c9c" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Markers</tspan></text>
+    <text id="Tags" transform="translate(236 1139)" fill="#9e9c9c" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Tags</tspan></text>
+    <text id="Metadata" transform="translate(236 1284)" fill="#9e9c9c" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Metadata</tspan></text>
+    <g id="Grupo_22" data-name="Grupo 22" transform="translate(-936.135 441.034) rotate(-45)">
+      <line id="Línea_71" data-name="Línea 71" x2="18.657" transform="translate(412.5 1189.117)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+      <line id="Línea_72" data-name="Línea 72" y2="19.476" transform="translate(431.157 1170.358)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+    </g>
+    <g id="Grupo_23" data-name="Grupo 23" transform="translate(-936.135 517.034) rotate(-45)">
+      <line id="Línea_71-2" data-name="Línea 71" x2="18.657" transform="translate(412.5 1189.117)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+      <line id="Línea_72-2" data-name="Línea 72" y2="19.476" transform="translate(431.157 1170.358)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+    </g>
+    <g id="Grupo_24" data-name="Grupo 24" transform="translate(731.773 -3.522) rotate(45)">
+      <line id="Línea_71-3" data-name="Línea 71" x2="18.657" transform="translate(412.5 1189.117)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+      <line id="Línea_72-3" data-name="Línea 72" y2="19.476" transform="translate(431.157 1170.358)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+    </g>
+    <g id="Grupo_25" data-name="Grupo 25" transform="translate(-937.135 738.034) rotate(-45)">
+      <line id="Línea_71-4" data-name="Línea 71" x2="18.657" transform="translate(412.5 1189.117)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+      <line id="Línea_72-4" data-name="Línea 72" y2="19.476" transform="translate(431.157 1170.358)" fill="none" stroke="#9e9c9c" stroke-width="3"/>
+    </g>
+    <g id="Rectángulo_146" data-name="Rectángulo 146" transform="translate(131 1504)" fill="#545454" stroke="#707070" stroke-width="1">
+      <rect width="706" height="15" stroke="none"/>
+      <rect x="0.5" y="0.5" width="705" height="14" fill="none"/>
+    </g>
+    <circle id="Elipse_105" data-name="Elipse 105" cx="24" cy="24" r="24" transform="translate(169 198)" fill="#69f6b0"/>
+    <circle id="Elipse_106" data-name="Elipse 106" cx="24" cy="24" r="24" transform="translate(164 442)" fill="#dbdbdb"/>
+    <circle id="Elipse_108" data-name="Elipse 108" cx="24" cy="24" r="24" transform="translate(164 597)" fill="#dbdbdb"/>
+    <circle id="Elipse_107" data-name="Elipse 107" cx="24" cy="24" r="24" transform="translate(752 250)" fill="#69f6b0"/>
+    <circle id="Elipse_109" data-name="Elipse 109" cx="24" cy="24" r="24" transform="translate(752 708)" fill="#69f6b0"/>
+    <g id="chat" transform="translate(179.771 209.01)">
+      <path id="Trazado_27" data-name="Trazado 27" d="M0,0H27.937V27.937H0Z" fill="none"/>
+      <path id="Trazado_28" data-name="Trazado 28" d="M24.117,6.656H21.789V17.133H6.656v2.328A1.167,1.167,0,0,0,7.82,20.625h12.8l4.656,4.656V7.82A1.167,1.167,0,0,0,24.117,6.656Zm-4.656,6.984V3.164A1.167,1.167,0,0,0,18.3,2H3.164A1.167,1.167,0,0,0,2,3.164v16.3L6.656,14.8H18.3A1.167,1.167,0,0,0,19.461,13.641Z" transform="translate(0.328 0.328)" fill="#10854b"/>
+    </g>
+    <line id="Línea_73" data-name="Línea 73" x2="705" transform="translate(132.5 762.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_149)">
+      <rect id="Rectángulo_149-2" data-name="Rectángulo 149" width="319" height="144" rx="5" transform="translate(420 250)" fill="#69f6b0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_153)">
+      <rect id="Rectángulo_153-2" data-name="Rectángulo 153" width="420" height="47" rx="5" transform="translate(319 708)" fill="#69f6b0"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_150)">
+      <rect id="Rectángulo_150-2" data-name="Rectángulo 150" width="292" height="132" rx="5" transform="translate(227 442)" fill="#dbdbdb"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_151)">
+      <rect id="Rectángulo_151-2" data-name="Rectángulo 151" width="184" height="66" rx="5" transform="translate(227 597)" fill="#dbdbdb"/>
+    </g>
+    <text id="C" transform="translate(768 283)" fill="#10854b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="C-2" data-name="C" transform="translate(768 741)" fill="#10854b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="A" transform="translate(180 475)" fill="#707070" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+    <text id="A-2" data-name="A" transform="translate(180 630)" fill="#707070" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+    <text id="Nombre_Cliente" data-name="Nombre Cliente" transform="translate(443 281)" fill="#707070" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Nombre Cliente</tspan></text>
+    <text id="Nombre_Agente" data-name="Nombre Agente" transform="translate(248 473)" fill="#707070" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Nombre Agente</tspan></text>
+    <text id="Nombre_Agente-2" data-name="Nombre Agente" transform="translate(248 617)" fill="#707070" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Nombre Agente</tspan></text>
+    <text id="_17_10_87_22:30" data-name="17/10/87  22:30" transform="translate(626 374)" fill="#707070" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0" xml:space="preserve">17/10/87  22:30</tspan></text>
+    <text id="_17_10_87_22:30-2" data-name="17/10/87  22:30" transform="translate(403 558)" fill="#707070" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0" xml:space="preserve">17/10/87  22:30</tspan></text>
+    <text id="_17_10_87_22:30-3" data-name="17/10/87  22:30" transform="translate(305 658)" fill="#707070" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0" xml:space="preserve">17/10/87  22:30</tspan></text>
+    <text id="_Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor" data-name="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" transform="translate(443 294)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">&quot;Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="38">consectetur adipiscing elit, sed do </tspan><tspan x="0" y="59">eiusmod tempor</tspan></text>
+    <text id="_Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor-2" data-name="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor" transform="translate(248 488)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">&quot;Lorem ipsum dolor sit amet, </tspan><tspan x="0" y="38">consectetur adipiscing elit, sed do </tspan></text>
+    <text id="ok" transform="translate(248 624)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">ok</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_147)">
+      <g id="Rectángulo_147-2" data-name="Rectángulo 147" transform="translate(133 736)" fill="#4e4e4e" stroke="#707070" stroke-width="1">
+        <rect width="704" height="27" stroke="none"/>
+        <rect x="0.5" y="0.5" width="703" height="26" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectángulo_148" data-name="Rectángulo 148" transform="translate(420 741)" fill="#fff" stroke="#707070" stroke-linecap="round" stroke-width="1">
+      <rect width="137" height="14" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="136" height="13" rx="6.5" fill="none"/>
+    </g>
+    <line id="Línea_74" data-name="Línea 74" x2="114" transform="translate(431.5 748.5)" fill="none" stroke="#707070" stroke-width="2"/>
+  </g>
+</svg>

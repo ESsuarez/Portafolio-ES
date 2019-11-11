@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="690" viewBox="0 0 1100 690">
+  <defs>
+    <clipPath id="clip-Tipografía">
+      <rect width="1100" height="690"/>
+    </clipPath>
+  </defs>
+  <g id="Tipografía" clip-path="url(#clip-Tipografía)">
+    <rect width="1100" height="690" fill="#fff"/>
+    <g id="Roboto" transform="translate(-156 66)">
+      <text id="Roboto-2" data-name="Roboto" transform="translate(263 68)" fill="#707070" font-size="96" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">Source Sans Pro</tspan></text>
+    </g>
+    <g id="Grupo_14" data-name="Grupo 14" transform="translate(30 -187)">
+      <text id="Regular_12pt" data-name="Regular 12pt" transform="translate(332.419 774.09)" fill="#5d5d5d" font-size="21" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Regular 12pt</tspan></text>
+      <text id="Regular_14pt" data-name="Regular 14pt" transform="translate(332.419 717.254)" fill="#5d5d5d" font-size="24" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Regular 14pt</tspan></text>
+      <text id="Medium_14pt" data-name="Medium 14pt" transform="translate(332.419 657.419)" fill="#5d5d5d" font-size="24" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Medium 14pt</tspan></text>
+      <text id="Regular_16pt" data-name="Regular 16pt" transform="translate(332.419 593.545)" fill="#5d5d5d" font-size="27" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Regular 16pt</tspan></text>
+      <text id="Medium_20pt" data-name="Medium 20pt" transform="translate(332.419 527.631)" fill="#5d5d5d" font-size="34" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Medium 20pt</tspan></text>
+      <text id="Regular_24pt" data-name="Regular 24pt" transform="translate(332.419 452.918)" fill="#5d5d5d" font-size="42" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Regular 24pt</tspan></text>
+      <text id="Caption" transform="translate(80.76 774.09)" fill="#5d5d5d" font-size="21" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Caption</tspan></text>
+      <text id="Body_1" data-name="Body 1" transform="translate(80.76 717.254)" fill="#5d5d5d" font-size="24" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Body 1</tspan></text>
+      <text id="Body_2_Menu" data-name="Body 2 / Menu" transform="translate(80.76 657.419)" fill="#5d5d5d" font-size="24" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Body 2 / Menu</tspan></text>
+      <text id="Subheader" transform="translate(80.76 593.545)" fill="#5d5d5d" font-size="27" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Subheader</tspan></text>
+      <text id="Title" transform="translate(80.76 527.631)" fill="#5d5d5d" font-size="34" font-family="SourceSansPro-SemiBold, Source Sans Pro" font-weight="600"><tspan x="0" y="0">Title</tspan></text>
+      <text id="Headline" transform="translate(80.76 452.918)" fill="#5d5d5d" font-size="42" font-family="SourceSansPro-Regular, Source Sans Pro"><tspan x="0" y="0">Headline</tspan></text>
+    </g>
+  </g>
+</svg>

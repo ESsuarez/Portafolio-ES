@@ -37,23 +37,21 @@
                 </svg>
             </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto colapse-lg" style="text-align: right;">
-                    <li class="nav-item" style="margin-top: 5px;">
-                        <a class="nav-link" href="#">Acerca de mi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                </ul>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="menu-icon-close fas fa-times"></i>
+                    <span class="hamburger-inner"></span>
+                    </span>
+                    </button></a>
+                <div class="overlay-content">
+                    <a href="#">Trabajos</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contacto</a>
+                </div>
             </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <i class="menu-icon-burguer fas fa-bars"></i>
+            </span>
         </nav>
     </header>
 
@@ -61,6 +59,9 @@
         <p class="name__p">Edwin suarez</p>
         <div class="name__line"></div>
     </section>
+    <div class="back-button index-button">
+        <i class="fas fa-comment-alt"></i>
+    </div>
     <section class="home container panel" data-color="white" id="home">
         <h1 class=" home__h1 col-sm-12 col-md-7">Hola! mi nombre es Edwin Suárez y soy diseñador <span
                 class="home__ui-ux">UX/UI</span> viviendo en Chile.</h1>
@@ -139,8 +140,7 @@
             <a href="html/anewlytics.html"><img class="work__img-anew col-sm-12 col-md-11"
                     src="assets/img/anewlytics.jpg" alt=""></a>
             <h2 class="work__h2">4GEEKS<span class="work__h2-span"> / Rediseño de app desktop.</span></h2>
-            <a href="#"><img class="work__img-anew col-sm-12 col-md-11" src="assets/img/anewlytics.jpg"
-                    alt=""></a>
+            <a href="#"><img class="work__img-anew col-sm-12 col-md-11" src="assets/img/anewlytics.jpg" alt=""></a>
 
         </div>
 

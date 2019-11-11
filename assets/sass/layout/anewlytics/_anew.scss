@@ -45,7 +45,7 @@
 .name-anew{
     position: absolute;
     z-index: 800;
-    position: fixed;
+    //position: fixed;
 }
 
 .anew-resume{
@@ -72,17 +72,109 @@
 }
 
 .anew-monitor{
-    padding: 0px;
-    margin: 0px;
-    height: 100vh;
+    padding-top: 12vh;
+    height: 800px;
 }
 
 .anew-problem{
-    padding: 0px;
-    margin: 0px;
+    
     height: 100vh;
+    
+
+    &__cont{
+        padding-top:15vh;
+    }
+
+    h3{
+        font-family: $bitter;
+        color: $primary-pink;
+        font-size: 1em;
+        
+    }
+
+    h2{
+        font-size: 3em;
+        margin: 20px 0px;
+        color: $second-black;
+    }
+
+    p{
+        font-family: $bitter;
+        color: $third-black;
+        padding-right: 50px;
+        line-height: 2;
+    }
+    &__line{
+        height: 2px;
+        width: 50px;
+        background-color: $primary-pink;
+        margin-top: 30px;
+    }
 }
 
+.anew-goals{
+    height: 100vh;
+    padding: 10vh 11vw;
+
+    h2{
+        font-size: 3em;
+        margin: 20px 0px;
+        color: $second-black;
+        margin-bottom: 50px;
+    }
+
+    &__circle{
+        padding: 7px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        background-color: $primary-pink;
+        border-radius: 30px;
+        color: $white;
+        margin-bottom: 10px;
+    }
+
+    &__p{
+        font-family: $bitter;
+        color: $third-black;
+        margin-bottom: 50px;
+    }
+    
+}
+
+.anew-sketchs,.anew-wireframes{
+    
+    padding: 10vh 11vw;
+    
+
+    h2{
+        font-size: 3em;
+        margin: 20px 0px;
+        color: $second-black;
+        margin-bottom: 50px;
+    }
+
+    h3{
+        font-family: $bitter;
+        color: $primary-pink;
+        font-size: 1em; 
+    }
+
+    &__img{
+       
+        
+        
+    }
+
+}
+
+.cont-two{
+   padding-top: 9vh; 
+}
+
+.problem-two{
+    height: 130px;
+}
 
 @media (max-width: 767px) {
     

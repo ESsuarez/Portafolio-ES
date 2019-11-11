@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2515" height="690" viewBox="0 0 2515 690">
+  <defs>
+    <clipPath id="clip-Colores">
+      <rect width="2515" height="690"/>
+    </clipPath>
+  </defs>
+  <g id="Colores" clip-path="url(#clip-Colores)">
+    <rect width="2515" height="690" fill="#fff"/>
+    <g id="Rectángulo_79" data-name="Rectángulo 79" transform="translate(136 179)" fill="#3b3b3b" stroke="#707070" stroke-width="1">
+      <rect width="278" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="277" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_80" data-name="Rectángulo 80" transform="translate(465 179)" fill="#5683ff" stroke="#707070" stroke-width="1">
+      <rect width="279" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="278" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_96" data-name="Rectángulo 96" transform="translate(794 179)" fill="#ff6e95" stroke="#707070" stroke-width="1">
+      <rect width="278" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="277" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_81" data-name="Rectángulo 81" transform="translate(1122 179)" fill="#9181ff" stroke="#707070" stroke-width="1">
+      <rect width="278" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="277" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_82" data-name="Rectángulo 82" transform="translate(1450 179)" fill="#00cbe0" stroke="#707070" stroke-width="1">
+      <rect width="280" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="279" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_83" data-name="Rectángulo 83" transform="translate(1780 179)" fill="#69f6b0" stroke="#707070" stroke-width="1">
+      <rect width="279" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="278" height="277" fill="none"/>
+    </g>
+    <g id="Rectángulo_84" data-name="Rectángulo 84" transform="translate(2109 179)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="278" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="277" height="277" fill="none"/>
+    </g>
+    <g id="Roboto" transform="translate(214.406 298.57)">
+      <text id="Roboto-2" data-name="Roboto" transform="translate(-0.406 30.43)" fill="#f1f1f1" font-size="30" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#3B3B3B</tspan></text>
+    </g>
+    <g id="Roboto-3" data-name="Roboto" transform="translate(546.653 298.57)">
+      <text id="Roboto-4" data-name="Roboto" transform="translate(0.347 31.43)" fill="#f1f1f1" font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#5683FF</tspan></text>
+    </g>
+    <g id="Roboto-5" data-name="Roboto" transform="translate(874.98 298.57)">
+      <text id="Roboto-6" data-name="Roboto" transform="translate(0.02 31.43)" fill="#f1f1f1" font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#FF6E95</tspan></text>
+    </g>
+    <g id="Roboto-7" data-name="Roboto" transform="translate(1203.306 298.57)">
+      <text id="Roboto-8" data-name="Roboto" transform="translate(-0.306 31.43)" fill="#f1f1f1" font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#9181FF</tspan></text>
+    </g>
+    <text id="Roboto-9" data-name="Roboto" transform="translate(1531 329)" fill="#f1f1f1" font-size="30" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#00CBE0</tspan></text>
+    <text id="Roboto-10" data-name="Roboto" transform="translate(1861 329)" fill="#545454" font-size="30" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#69F6B0</tspan></text>
+    <text id="Roboto-11" data-name="Roboto" transform="translate(2209 330)" fill="#545454" font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">#ffffff</tspan></text>
+  </g>
+</svg>
