@@ -98,7 +98,7 @@
         color: $second-black;
     }
 
-    p{
+    p,li{
         font-family: $bitter;
         color: $third-black;
         padding-right: 50px;
@@ -113,7 +113,7 @@
 }
 
 .anew-goals{
-    height: 100vh;
+    
     padding: 10vh 11vw;
 
     h2{
@@ -121,6 +121,13 @@
         margin: 20px 0px;
         color: $second-black;
         margin-bottom: 50px;
+    }
+
+    h3{
+        font-family: $bitter;
+        color: $primary-pink;
+        font-size: 1em;
+        
     }
 
     &__circle{
@@ -138,6 +145,23 @@
         font-family: $bitter;
         color: $third-black;
         margin-bottom: 50px;
+    }
+
+    li{
+        font-family: $bitter;
+        color: $third-black;
+    }
+
+    ol{
+        padding-top: 100px;
+        height: 400px;
+        padding-left: 16px;
+    }
+
+    i{
+        color: $primary-pink;
+        font-size: 4em;
+        margin-bottom: 20px;
     }
     
 }
@@ -174,6 +198,12 @@
 
 .problem-two{
     height: 130px;
+}
+
+.h3-estilos{
+    font-family: $bitter;
+    color: $primary-pink;
+    font-size: 1em;
 }
 
 @media (max-width: 767px) {

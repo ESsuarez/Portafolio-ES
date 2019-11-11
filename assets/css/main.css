@@ -8003,7 +8003,7 @@ body {
     font-size: 3em;
     margin: 20px 0px;
     color: #313131; }
-  .anew-problem p {
+  .anew-problem p, .anew-problem li {
     font-family: "Bitter", serif;
     color: #6C6E70;
     padding-right: 50px;
@@ -8015,13 +8015,16 @@ body {
     margin-top: 30px; }
 
 .anew-goals {
-  height: 100vh;
   padding: 10vh 11vw; }
   .anew-goals h2 {
     font-size: 3em;
     margin: 20px 0px;
     color: #313131;
     margin-bottom: 50px; }
+  .anew-goals h3 {
+    font-family: "Bitter", serif;
+    color: #ff2664;
+    font-size: 1em; }
   .anew-goals__circle {
     padding: 7px;
     text-align: center;
@@ -8035,6 +8038,17 @@ body {
     font-family: "Bitter", serif;
     color: #6C6E70;
     margin-bottom: 50px; }
+  .anew-goals li {
+    font-family: "Bitter", serif;
+    color: #6C6E70; }
+  .anew-goals ol {
+    padding-top: 100px;
+    height: 400px;
+    padding-left: 16px; }
+  .anew-goals i {
+    color: #ff2664;
+    font-size: 4em;
+    margin-bottom: 20px; }
 
 .anew-sketchs, .anew-wireframes {
   padding: 10vh 11vw; }
@@ -8053,5 +8067,10 @@ body {
 
 .problem-two {
   height: 130px; }
+
+.h3-estilos {
+  font-family: "Bitter", serif;
+  color: #ff2664;
+  font-size: 1em; }
 
 /*# sourceMappingURL=main.css.map */

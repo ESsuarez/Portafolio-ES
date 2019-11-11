@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1274" height="690" viewBox="0 0 1274 690">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="690" viewBox="0 0 1100 690">
   <defs>
-    <clipPath id="clip-Tipografía_negativo">
-      <rect width="1274" height="690"/>
+    <clipPath id="clip-Tipografía_1">
+      <rect width="1100" height="690"/>
     </clipPath>
   </defs>
-  <g id="Tipografía_negativo" data-name="Tipografía negativo" clip-path="url(#clip-Tipografía_negativo)">
-    <rect width="1274" height="690" fill="#fff"/>
-    <rect id="Rectángulo_78" data-name="Rectángulo 78" width="1274" height="690" fill="#3b3b3b" opacity="0.89"/>
+  <g id="Tipografía_1" data-name="Tipografía – 1" clip-path="url(#clip-Tipografía_1)">
+    <rect width="1100" height="690" fill="#505050"/>
     <g id="Roboto" transform="translate(-156 66)">
       <text id="Roboto-2" data-name="Roboto" transform="translate(263 68)" fill="#fff" font-size="96" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700"><tspan x="0" y="0">Source Sans Pro</tspan></text>
     </g>
