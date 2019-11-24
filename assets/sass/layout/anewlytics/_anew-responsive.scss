@@ -1,0 +1,139 @@
+@media (max-width: 480px) {
+    .anew__bg-black{
+        padding: 24vh 11vw 0vh 11vw;
+
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            width: 77vw;  
+        }
+    }
+    .back-button{
+        display: none;
+    }
+
+    .res-p{
+        margin: 0px;
+    }
+
+    .anew-monitor{
+        padding-left:0px;
+        padding-right: 0px;
+    }
+    .anew-problem__cont{
+        padding-left: 25px;
+
+    }
+
+    .anew-type{
+        height: 243px;
+    }
+
+    .colors-desk{
+        display: none;
+    }
+
+    .colors-movile,.icon-movile,.boton-movile{
+        display: block;
+        height: 778px;
+        padding: 0px;
+    }
+
+    .icon-desk,.colors-desk,.boton-desk{
+        display: none;
+    }
+
+    .boton-movile{
+        height: 555px;
+    }    
+    
+}
+
+@media (max-width: 1200px){
+    .anew__video-cont{
+        width: 829px;
+    margin-top: 32px;
+    height: 528px;
+    margin-left: 120px;
+    overflow: hidden;
+    position: absolute;
+    }
+    
+    .video-one{
+        position: absolute;
+        width: 690px;
+        height: 458px;
+        margin-top: -26px;
+    }
+    
+}
+
+@media (max-width: 990px){
+    .anew__video-cont {
+        width: 511px;
+        margin-top: 25px;
+        height: 327px;
+        margin-left: 93px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .video-one {
+        position: absolute;
+        width: 504px;
+        height: 349px;
+        margin-top: -26px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .anew__video-cont {
+        width: 374px;
+        margin-top: 18px;
+        height: 238px;
+        margin-left: 68px;
+        overflow: hidden;
+        position: absolute;
+    }
+    
+    .video-one {
+        position: absolute;
+        width: 374px;
+        height: 273px;
+        margin-top: -26px;
+    }
+
+    .anew-resume{
+        height: 68vh;
+    }
+    .anew-resume__col {
+        padding: 9vh 16vw 0vh 16vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .anew__video-cont {
+        width: 304px;
+        margin-top: 14px;
+        height: 188px;
+        margin-left: 54px;
+    }
+
+    .video-one {
+        position: absolute;
+        width: 306px;
+        height: 229px;
+        margin-top: -26px;
+    }
+
+    .anew-resume__col{
+        padding: 0px;
+    }
+
+    .anew-resume{
+        height: 56vh;
+        padding: 65px 40px;
+    }
+}

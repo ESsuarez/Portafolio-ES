@@ -61,9 +61,9 @@
 
     </section>
     <div class="back-button">
-        <i class="far fa-arrow-alt-circle-left"></i>
+        <a href="../index.html"><i class="far fa-arrow-alt-circle-left"></i></a>
     </div>
-    <section class="anew container-fluid">
+    <section class="anew container-fluid" id="anew-home">
         <div class="anew__bg">
             <div class="anew__bg-black col-sm-12 col-md-8">
                 <h1>ANEWLYTICS.</h1>
@@ -78,7 +78,7 @@
         </div>
     </section>
     <section class="anew-resume container-fluid">
-        <div class="row">
+        <div class="row res-p">
             <div class="anew-resume__col col-sm-12 col-md-6">
                 <h3>CLIENTE</h3>
                 <p>Anewlytics</p>
@@ -93,6 +93,12 @@
         </div>
     </section>
     <section class="anew-monitor container">
+        <div class="anew__video-cont">
+            <video class="video-fluid video-one" autoplay loop muted>
+                <source src="../assets/img/welcome.mp4" type="video/mp4" />
+            </video>
+        </div>
+
         <img class="img-fluid" src="../assets/img/mac.png" alt="">
     </section>
     <section class="anew-problem container-fluid">
@@ -146,7 +152,7 @@
             <h3>Algunos</h3>
             <h2>SKETCHES</h2>
         </div>
-        <div class="anew-sketchs__img ">
+        <div class="anew-sketchs__img">
             <img class="img-fluid" src="../assets/img/sketches.png" alt="">
         </div>
         <div class="anew-problem__line" style="margin-left: 27px;"></div>
@@ -168,13 +174,18 @@
         </div>
     </section>
     <section class="anew-monitor container">
+        <div class="anew__video-cont">
+            <video class="video-fluid video-one" autoplay loop muted>
+                <source src="../assets/img/dash.mp4" type="video/mp4" />
+            </video>
+        </div>
         <img class="img-fluid" src="../assets/img/mac.png" alt="">
     </section>
     <section class="anew-goals container-fluid">
         <h2 class="h2-estilos">ESTILOS</h2>
         <h3 class="h3-estilos">TIPOGRAFÍA</h3>
         <div class="row">
-            <svg class="col-sm-12 col-md-6" style="height: 360px;" xmlns="http://www.w3.org/2000/svg"
+            <svg class="col-sm-12 col-md-6 anew-type" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="690" viewBox="0 0 1100 690">
                 <defs>
                     <clipPath id="clip-Tipografía_1">
@@ -244,7 +255,7 @@
                     </g>
                 </g>
             </svg>
-            <svg class="col-sm-12 col-md-6" style="height: 360px;" xmlns="http://www.w3.org/2000/svg"
+            <svg class="col-sm-12 col-md-6 anew-type" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="1100" height="690" viewBox="0 0 1100 690">
                 <defs>
                     <clipPath id="clip-Tipografía">
@@ -316,7 +327,7 @@
             </svg>
         </div>
         <h3 class="h3-estilos" style="margin-top: 86px; margin-bottom: -16px;">COLORES</h3>
-        <svg class="col-12" style="height: 210; padding:0px;" xmlns="http://www.w3.org/2000/svg"
+        <svg class="col-12 colors-desk" style="height: 210; padding:0px;" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" width="2255" height="282" viewBox="0 0 2255 282">
             <defs>
                 <clipPath id="clip-Colores_1">
@@ -397,8 +408,89 @@
                 </text>
             </g>
         </svg>
+        <svg class="col-12 colors-movile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="603" height="1236" viewBox="0 0 603 1236">
+            <defs>
+                <clipPath id="clip-Colores_1">
+                    <rect width="603" height="1236" />
+                </clipPath>
+            </defs>
+            <g id="Colores_1" data-name="Colores – 1" clip-path="url(#clip-Colores_1)">
+                <rect width="603" height="1236" fill="#fff" />
+                <g id="Rectángulo_79" data-name="Rectángulo 79" fill="#3b3b3b" stroke="#707070" stroke-width="1">
+                    <rect width="278" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="277" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_80" data-name="Rectángulo 80" transform="translate(329)" fill="#5683ff"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="279" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="278" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_96" data-name="Rectángulo 96" transform="translate(0 320)" fill="#ff6e95"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="278" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="277" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_81" data-name="Rectángulo 81" transform="translate(328 320)" fill="#9181ff"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="278" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="277" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_82" data-name="Rectángulo 82" transform="translate(0 640)" fill="#00cbe0"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="280" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="279" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_83" data-name="Rectángulo 83" transform="translate(330 640)" fill="#69f6b0"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="279" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="278" height="277" fill="none" />
+                </g>
+                <g id="Rectángulo_84" data-name="Rectángulo 84" transform="translate(165 959)" fill="#fff"
+                    stroke="#707070" stroke-width="1">
+                    <rect width="278" height="278" stroke="none" />
+                    <rect x="0.5" y="0.5" width="277" height="277" fill="none" />
+                </g>
+                <g id="Roboto" transform="translate(78.406 119.57)">
+                    <text id="Roboto-2" data-name="Roboto" transform="translate(-0.406 30.43)" fill="#f1f1f1"
+                        font-size="30" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                        <tspan x="0" y="0">#3B3B3B</tspan>
+                    </text>
+                </g>
+                <g id="Roboto-3" data-name="Roboto" transform="translate(410.653 119.57)">
+                    <text id="Roboto-4" data-name="Roboto" transform="translate(0.347 31.43)" fill="#f1f1f1"
+                        font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                        <tspan x="0" y="0">#5683FF</tspan>
+                    </text>
+                </g>
+                <g id="Roboto-5" data-name="Roboto" transform="translate(80.98 439.57)">
+                    <text id="Roboto-6" data-name="Roboto" transform="translate(0.02 31.43)" fill="#f1f1f1"
+                        font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                        <tspan x="0" y="0">#FF6E95</tspan>
+                    </text>
+                </g>
+                <g id="Roboto-7" data-name="Roboto" transform="translate(409.306 439.57)">
+                    <text id="Roboto-8" data-name="Roboto" transform="translate(-0.306 31.43)" fill="#f1f1f1"
+                        font-size="31" font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                        <tspan x="0" y="0">#9181FF</tspan>
+                    </text>
+                </g>
+                <text id="Roboto-9" data-name="Roboto" transform="translate(81 790)" fill="#f1f1f1" font-size="30"
+                    font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                    <tspan x="0" y="0">#00CBE0</tspan>
+                </text>
+                <text id="Roboto-10" data-name="Roboto" transform="translate(411 790)" fill="#545454" font-size="30"
+                    font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                    <tspan x="0" y="0">#69F6B0</tspan>
+                </text>
+                <text id="Roboto-11" data-name="Roboto" transform="translate(265 1110)" fill="#545454" font-size="31"
+                    font-family="SourceSansPro-Bold, Source Sans Pro" font-weight="700">
+                    <tspan x="0" y="0">#ffffff</tspan>
+                </text>
+            </g>
+        </svg>
         <h3 class="h3-estilos" style="margin-top: 50px; margin-bottom: 20px;">ICONOS</h3>
-        <svg class="col-sm-12 col-md-9" style="padding: 0px; height:243px;" xmlns="http://www.w3.org/2000/svg"
+        <svg class="col-sm-12 col-md-9 icon-desk" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" width="1088" height="341" viewBox="0 0 1088 341">
             <defs>
                 <clipPath id="clip-icons">
@@ -548,9 +640,158 @@
                 </text>
             </g>
         </svg>
+        <svg class="col-12 icon-movile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="252" height="1100" viewBox="0 0 252 1100">
+            <defs>
+                <clipPath id="clip-botones_1">
+                    <rect width="252" height="1100" />
+                </clipPath>
+            </defs>
+            <g id="botones_1" data-name="botones – 1" clip-path="url(#clip-botones_1)">
+                <rect width="252" height="1100" fill="#fff" />
+                <text id="Normal" transform="translate(92 17)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Normal</tspan>
+                </text>
+                <g id="mail" transform="translate(-2 71)">
+                    <path id="Trazado_7" data-name="Trazado 7"
+                        d="M34.063,4H5.563A3.558,3.558,0,0,0,2.018,7.563L2,28.938A3.573,3.573,0,0,0,5.563,32.5h28.5a3.573,3.573,0,0,0,3.563-3.562V7.563A3.573,3.573,0,0,0,34.063,4Zm0,24.938H5.563V11.125l14.25,8.906,14.25-8.906ZM19.813,16.469,5.563,7.563h28.5Z"
+                        fill="#9e9c9c" />
+                </g>
+                <g id="mail-2" data-name="mail" transform="translate(-2 408)">
+                    <path id="Trazado_7-2" data-name="Trazado 7"
+                        d="M34.063,4H5.563A3.558,3.558,0,0,0,2.018,7.563L2,28.938A3.573,3.573,0,0,0,5.563,32.5h28.5a3.573,3.573,0,0,0,3.563-3.562V7.563A3.573,3.573,0,0,0,34.063,4Zm0,24.938H5.563V11.125l14.25,8.906,14.25-8.906ZM19.813,16.469,5.563,7.563h28.5Z"
+                        fill="#01cae0" />
+                </g>
+                <g id="mail-3" data-name="mail" transform="translate(-1 735)">
+                    <path id="Trazado_7-3" data-name="Trazado 7"
+                        d="M34.063,4H5.563A3.558,3.558,0,0,0,2.018,7.563L2,28.938A3.573,3.573,0,0,0,5.563,32.5h28.5a3.573,3.573,0,0,0,3.563-3.562V7.563A3.573,3.573,0,0,0,34.063,4Zm0,24.938H5.563V11.125l14.25,8.906,14.25-8.906ZM19.813,16.469,5.563,7.563h28.5Z"
+                        fill="#5683ff" />
+                </g>
+                <g id="candado" transform="translate(107 74)">
+                    <path id="Trazado_5" data-name="Trazado 5"
+                        d="M23.333,10.667H21.952V7.9a6.9,6.9,0,1,0-13.81,0v2.762H6.762A2.77,2.77,0,0,0,4,13.429v13.81A2.77,2.77,0,0,0,6.762,30H23.333A2.77,2.77,0,0,0,26.1,27.238V13.429A2.77,2.77,0,0,0,23.333,10.667ZM15.048,23.1a2.762,2.762,0,1,1,2.762-2.762A2.77,2.77,0,0,1,15.048,23.1Zm4.281-12.429H10.767V7.9a4.281,4.281,0,0,1,8.562,0Z"
+                        fill="#9e9c9c" />
+                </g>
+                <g id="candado-2" data-name="candado" transform="translate(107 411)">
+                    <path id="Trazado_5-2" data-name="Trazado 5"
+                        d="M23.333,10.667H21.952V7.9a6.9,6.9,0,1,0-13.81,0v2.762H6.762A2.77,2.77,0,0,0,4,13.429v13.81A2.77,2.77,0,0,0,6.762,30H23.333A2.77,2.77,0,0,0,26.1,27.238V13.429A2.77,2.77,0,0,0,23.333,10.667ZM15.048,23.1a2.762,2.762,0,1,1,2.762-2.762A2.77,2.77,0,0,1,15.048,23.1Zm4.281-12.429H10.767V7.9a4.281,4.281,0,0,1,8.562,0Z"
+                        fill="#01cae0" />
+                </g>
+                <g id="candado-3" data-name="candado" transform="translate(108 738)">
+                    <path id="Trazado_5-3" data-name="Trazado 5"
+                        d="M23.333,10.667H21.952V7.9a6.9,6.9,0,1,0-13.81,0v2.762H6.762A2.77,2.77,0,0,0,4,13.429v13.81A2.77,2.77,0,0,0,6.762,30H23.333A2.77,2.77,0,0,0,26.1,27.238V13.429A2.77,2.77,0,0,0,23.333,10.667ZM15.048,23.1a2.762,2.762,0,1,1,2.762-2.762A2.77,2.77,0,0,1,15.048,23.1Zm4.281-12.429H10.767V7.9a4.281,4.281,0,0,1,8.562,0Z"
+                        fill="#5683ff" />
+                </g>
+                <path id="Trazado_46" data-name="Trazado 46"
+                    d="M23.85,21.348H22.533l-.467-.45A10.859,10.859,0,1,0,20.9,22.066l.45.467V23.85l8.34,8.323,2.485-2.485Zm-10.008,0a7.506,7.506,0,1,1,7.506-7.506A7.5,7.5,0,0,1,13.842,21.348Z"
+                    transform="translate(216 72)" fill="#9e9c9c" />
+                <path id="Trazado_74" data-name="Trazado 74"
+                    d="M23.85,21.348H22.533l-.467-.45A10.859,10.859,0,1,0,20.9,22.066l.45.467V23.85l8.34,8.323,2.485-2.485Zm-10.008,0a7.506,7.506,0,1,1,7.506-7.506A7.5,7.5,0,0,1,13.842,21.348Z"
+                    transform="translate(216 409)" fill="#01cae0" />
+                <path id="Trazado_81" data-name="Trazado 81"
+                    d="M23.85,21.348H22.533l-.467-.45A10.859,10.859,0,1,0,20.9,22.066l.45.467V23.85l8.34,8.323,2.485-2.485Zm-10.008,0a7.506,7.506,0,1,1,7.506-7.506A7.5,7.5,0,0,1,13.842,21.348Z"
+                    transform="translate(217 736)" fill="#5683ff" />
+                <path id="Unión_16" data-name="Unión 16"
+                    d="M-1994.25,26.026h6.5A3.13,3.13,0,0,1-1991,29,3.121,3.121,0,0,1-1994.25,26.026Zm-9.75-1.487V23.051l3.251-2.974V12.641c0-4.58,2.648-8.388,7.313-9.4V2.231A2.338,2.338,0,0,1-1991,0a2.338,2.338,0,0,1,2.438,2.231V3.242a9.177,9.177,0,0,1,7.313,9.4v7.436l3.25,2.974v1.488Z"
+                    transform="translate(2009 152)" fill="#9e9c9c" />
+                <path id="Unión_17" data-name="Unión 17"
+                    d="M-1994.25,26.026h6.5A3.13,3.13,0,0,1-1991,29,3.121,3.121,0,0,1-1994.25,26.026Zm-9.75-1.487V23.051l3.251-2.974V12.641c0-4.58,2.648-8.388,7.313-9.4V2.231A2.338,2.338,0,0,1-1991,0a2.338,2.338,0,0,1,2.438,2.231V3.242a9.177,9.177,0,0,1,7.313,9.4v7.436l3.25,2.974v1.488Z"
+                    transform="translate(2009 489)" fill="#01cae0" />
+                <path id="Unión_18" data-name="Unión 18"
+                    d="M-1994.25,26.026h6.5A3.13,3.13,0,0,1-1991,29,3.121,3.121,0,0,1-1994.25,26.026Zm-9.75-1.487V23.051l3.251-2.974V12.641c0-4.58,2.648-8.388,7.313-9.4V2.231A2.338,2.338,0,0,1-1991,0a2.338,2.338,0,0,1,2.438,2.231V3.242a9.177,9.177,0,0,1,7.313,9.4v7.436l3.25,2.974v1.488Z"
+                    transform="translate(2010 816)" fill="#5683ff" />
+                <path id="Trazado_47" data-name="Trazado 47"
+                    d="M26.913,4.565H21.435L19.869,3H12.043L10.478,4.565H5V7.7H26.913ZM6.565,9.261V28.043a3.14,3.14,0,0,0,3.13,3.13H22.217a3.14,3.14,0,0,0,3.13-3.13V9.261ZM19.087,20.217v6.261H12.826V20.217H9.7l6.261-6.261,6.261,6.261Z"
+                    transform="translate(106 150)" fill="#9e9c9c" />
+                <path id="Trazado_69" data-name="Trazado 69"
+                    d="M26.913,4.565H21.435L19.869,3H12.043L10.478,4.565H5V7.7H26.913ZM6.565,9.261V28.043a3.14,3.14,0,0,0,3.13,3.13H22.217a3.14,3.14,0,0,0,3.13-3.13V9.261ZM19.087,20.217v6.261H12.826V20.217H9.7l6.261-6.261,6.261,6.261Z"
+                    transform="translate(106 487)" fill="#01cae0" />
+                <path id="Trazado_78" data-name="Trazado 78"
+                    d="M26.913,4.565H21.435L19.869,3H12.043L10.478,4.565H5V7.7H26.913ZM6.565,9.261V28.043a3.14,3.14,0,0,0,3.13,3.13H22.217a3.14,3.14,0,0,0,3.13-3.13V9.261ZM19.087,20.217v6.261H12.826V20.217H9.7l6.261-6.261,6.261,6.261Z"
+                    transform="translate(107 814)" fill="#5683ff" />
+                <path id="Trazado_48" data-name="Trazado 48"
+                    d="M30.025,7.9h-2.95V21.175H7.9v2.95A1.479,1.479,0,0,0,9.375,25.6H25.6l5.9,5.9V9.375A1.479,1.479,0,0,0,30.025,7.9Zm-5.9,8.85V3.475A1.479,1.479,0,0,0,22.65,2H3.475A1.479,1.479,0,0,0,2,3.475v20.65l5.9-5.9H22.65A1.479,1.479,0,0,0,24.125,16.75Z"
+                    transform="translate(217 150)" fill="#9e9c9c" />
+                <path id="Trazado_70" data-name="Trazado 70"
+                    d="M30.025,7.9h-2.95V21.175H7.9v2.95A1.479,1.479,0,0,0,9.375,25.6H25.6l5.9,5.9V9.375A1.479,1.479,0,0,0,30.025,7.9Zm-5.9,8.85V3.475A1.479,1.479,0,0,0,22.65,2H3.475A1.479,1.479,0,0,0,2,3.475v20.65l5.9-5.9H22.65A1.479,1.479,0,0,0,24.125,16.75Z"
+                    transform="translate(217 487)" fill="#01cae0" />
+                <path id="Trazado_76" data-name="Trazado 76"
+                    d="M30.025,7.9h-2.95V21.175H7.9v2.95A1.479,1.479,0,0,0,9.375,25.6H25.6l5.9,5.9V9.375A1.479,1.479,0,0,0,30.025,7.9Zm-5.9,8.85V3.475A1.479,1.479,0,0,0,22.65,2H3.475A1.479,1.479,0,0,0,2,3.475v20.65l5.9-5.9H22.65A1.479,1.479,0,0,0,24.125,16.75Z"
+                    transform="translate(218 814)" fill="#5683ff" />
+                <path id="Trazado_49" data-name="Trazado 49"
+                    d="M15.011,18.162a4.273,4.273,0,0,0,4.276-4.291L19.3,5.291a4.291,4.291,0,0,0-8.581,0v8.581A4.285,4.285,0,0,0,15.011,18.162Zm10.011-4.291H22.591a7.421,7.421,0,0,1-7.58,7.294,7.421,7.421,0,0,1-7.58-7.294H5a9.988,9.988,0,0,0,8.581,9.611v4.691h2.86V23.483A9.988,9.988,0,0,0,25.023,13.872Z"
+                    transform="translate(3 243)" fill="#9e9c9c" />
+                <path id="Trazado_73" data-name="Trazado 73"
+                    d="M15.011,18.162a4.273,4.273,0,0,0,4.276-4.291L19.3,5.291a4.291,4.291,0,0,0-8.581,0v8.581A4.285,4.285,0,0,0,15.011,18.162Zm10.011-4.291H22.591a7.421,7.421,0,0,1-7.58,7.294,7.421,7.421,0,0,1-7.58-7.294H5a9.988,9.988,0,0,0,8.581,9.611v4.691h2.86V23.483A9.988,9.988,0,0,0,25.023,13.872Z"
+                    transform="translate(3 580)" fill="#01cae0" />
+                <path id="Trazado_80" data-name="Trazado 80"
+                    d="M15.011,18.162a4.273,4.273,0,0,0,4.276-4.291L19.3,5.291a4.291,4.291,0,0,0-8.581,0v8.581A4.285,4.285,0,0,0,15.011,18.162Zm10.011-4.291H22.591a7.421,7.421,0,0,1-7.58,7.294,7.421,7.421,0,0,1-7.58-7.294H5a9.988,9.988,0,0,0,8.581,9.611v4.691h2.86V23.483A9.988,9.988,0,0,0,25.023,13.872Z"
+                    transform="translate(4 907)" fill="#5683ff" />
+                <path id="Trazado_50" data-name="Trazado 50"
+                    d="M3,25.844v6.011H9.011L26.741,14.126,20.729,8.115ZM31.389,9.478a1.6,1.6,0,0,0,0-2.26L27.638,3.466a1.6,1.6,0,0,0-2.26,0L22.444,6.4l6.011,6.011,2.933-2.933Z"
+                    transform="translate(105 240.002)" fill="#9e9c9c" />
+                <path id="Trazado_71" data-name="Trazado 71"
+                    d="M3,25.844v6.011H9.011L26.741,14.126,20.729,8.115ZM31.389,9.478a1.6,1.6,0,0,0,0-2.26L27.638,3.466a1.6,1.6,0,0,0-2.26,0L22.444,6.4l6.011,6.011,2.933-2.933Z"
+                    transform="translate(105 577.002)" fill="#01cae0" />
+                <path id="Trazado_77" data-name="Trazado 77"
+                    d="M3,25.844v6.011H9.011L26.741,14.126,20.729,8.115ZM31.389,9.478a1.6,1.6,0,0,0,0-2.26L27.638,3.466a1.6,1.6,0,0,0-2.26,0L22.444,6.4l6.011,6.011,2.933-2.933Z"
+                    transform="translate(106 904.002)" fill="#5683ff" />
+                <path id="Trazado_51" data-name="Trazado 51"
+                    d="M27.207,7.113,23.65,10.65,20.094,7.113,16.537,10.65,12.981,7.113,20.094,0Zm5.867,20.094L29.538,23.65l3.536-3.557-3.536-3.557,3.536-3.557,7.113,7.113ZM12.98,33.074l3.557-3.536,3.557,3.536,3.557-3.536,3.557,3.536-7.113,7.113ZM7.113,12.981l3.536,3.557L7.113,20.094,10.65,23.65,7.113,27.207,0,20.094Z"
+                    transform="translate(233.417 229) rotate(45)" fill="#9e9c9c" />
+                <path id="Trazado_68" data-name="Trazado 68"
+                    d="M27.207,7.113,23.65,10.65,20.094,7.113,16.537,10.65,12.981,7.113,20.094,0Zm5.867,20.094L29.538,23.65l3.536-3.557-3.536-3.557,3.536-3.557,7.113,7.113ZM12.98,33.074l3.557-3.536,3.557,3.536,3.557-3.536,3.557,3.536-7.113,7.113ZM7.113,12.981l3.536,3.557L7.113,20.094,10.65,23.65,7.113,27.207,0,20.094Z"
+                    transform="translate(233.417 566) rotate(45)" fill="#01cae0" />
+                <path id="Trazado_75" data-name="Trazado 75"
+                    d="M27.207,7.113,23.65,10.65,20.094,7.113,16.537,10.65,12.981,7.113,20.094,0Zm5.867,20.094L29.538,23.65l3.536-3.557-3.536-3.557,3.536-3.557,7.113,7.113ZM12.98,33.074l3.557-3.536,3.557,3.536,3.557-3.536,3.557,3.536-7.113,7.113ZM7.113,12.981l3.536,3.557L7.113,20.094,10.65,23.65,7.113,27.207,0,20.094Z"
+                    transform="translate(234.417 893) rotate(45)" fill="#5683ff" />
+                <text id="Hover" transform="translate(98 355)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Hover</tspan>
+                </text>
+                <text id="Active" transform="translate(97 681)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Active</tspan>
+                </text>
+                <text id="Documents" transform="translate(84 1004)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Documents</tspan>
+                </text>
+                <g id="Elipse_31" data-name="Elipse 31" transform="translate(0 1049)" fill="#ff6e95" stroke="#cf2626"
+                    stroke-width="1">
+                    <circle cx="24" cy="24" r="24" stroke="none" />
+                    <circle cx="24" cy="24" r="23.5" fill="none" />
+                </g>
+                <circle id="Elipse_32" data-name="Elipse 32" cx="24" cy="24" r="24" transform="translate(102 1049)"
+                    fill="#9181ff" />
+                <circle id="Elipse_33" data-name="Elipse 33" cx="24" cy="24" r="24" transform="translate(202 1049)"
+                    fill="#69f6b0" />
+                <g id="chat" transform="translate(212.771 1060.01)">
+                    <path id="Trazado_27" data-name="Trazado 27" d="M0,0H27.937V27.937H0Z" fill="none" />
+                    <path id="Trazado_28" data-name="Trazado 28"
+                        d="M24.117,6.656H21.789V17.133H6.656v2.328A1.167,1.167,0,0,0,7.82,20.625h12.8l4.656,4.656V7.82A1.167,1.167,0,0,0,24.117,6.656Zm-4.656,6.984V3.164A1.167,1.167,0,0,0,18.3,2H3.164A1.167,1.167,0,0,0,2,3.164v16.3L6.656,14.8H18.3A1.167,1.167,0,0,0,19.461,13.641Z"
+                        transform="translate(0.328 0.328)" fill="#10854b" />
+                </g>
+                <g id="mail-4" data-name="mail" transform="translate(111.219 1058.021)">
+                    <path id="Trazado_29" data-name="Trazado 29" d="M0,0H29.49V29.49H0Z" fill="none" />
+                    <path id="Trazado_30" data-name="Trazado 30"
+                        d="M24.117,4H4.457A2.454,2.454,0,0,0,2.012,6.457L2,21.2A2.465,2.465,0,0,0,4.457,23.66h19.66A2.465,2.465,0,0,0,26.575,21.2V6.457A2.465,2.465,0,0,0,24.117,4Zm0,17.2H4.457V8.915l9.83,6.144,9.83-6.144Zm-9.83-8.6L4.457,6.457h19.66Z"
+                        transform="translate(0.457 0.915)" fill="#200da4" />
+                </g>
+                <g id="micro" transform="translate(6.115 1056.479)">
+                    <path id="Trazado_31" data-name="Trazado 31"
+                        d="M15.865,19.625a4.637,4.637,0,0,0,4.641-4.656l.016-9.312a4.656,4.656,0,0,0-9.312,0v9.312A4.65,4.65,0,0,0,15.865,19.625Zm10.865-4.656H24.091a8.053,8.053,0,0,1-8.226,7.916,8.053,8.053,0,0,1-8.226-7.916H5A10.839,10.839,0,0,0,14.312,25.4V30.49h3.1V25.4A10.839,10.839,0,0,0,26.729,14.969Z"
+                        transform="translate(2.76 0.552)" fill="#b52727" />
+                    <path id="Trazado_32" data-name="Trazado 32" d="M0,0H37.25V37.25H0Z" fill="none" />
+                </g>
+            </g>
+        </svg>
+
         <h3 class="h3-estilos" style="margin-top: 86px; margin-bottom: 20px;">BOTONES</h3>
-        <svg class="col-sm-12 col-md-8 mr-auto" style="padding: 0px; top: -60px; " xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" width="1012" height="704" viewBox="0 0 1012 704">
+        <svg class="col-sm-12 col-md-8 mr-auto boton-desk" style="padding: 0px; top: -60px; "
+            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1012" height="704"
+            viewBox="0 0 1012 704">
             <defs>
                 <filter id="Rectángulo_90" x="201" y="125" width="254" height="103" filterUnits="userSpaceOnUse">
                     <feOffset dx="8" dy="15" input="SourceAlpha" />
@@ -759,9 +1000,218 @@
                 </g>
             </g>
         </svg>
+        <svg class="col-12 boton-movile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="796" height="1264" viewBox="0 0 796 1264">
+            <defs>
+                <filter id="Rectángulo_90" x="-4" y="313" width="254" height="103" filterUnits="userSpaceOnUse">
+                    <feOffset dx="8" dy="15" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="4" result="blur" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <filter id="Rectángulo_91" x="560" y="313" width="254" height="103" filterUnits="userSpaceOnUse">
+                    <feOffset dx="8" dy="15" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="4" result="blur-2" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-2" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <filter id="Rectángulo_92" x="276" y="313" width="254" height="103" filterUnits="userSpaceOnUse">
+                    <feOffset dx="8" dy="15" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="4" result="blur-3" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-3" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <filter id="Rectángulo_95" x="-4" y="522" width="248" height="94" filterUnits="userSpaceOnUse">
+                    <feOffset dx="5" dy="5" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="3" result="blur-4" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-4" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <filter id="Rectángulo_94" x="563" y="522" width="248" height="94" filterUnits="userSpaceOnUse">
+                    <feOffset dx="8" dy="5" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="3" result="blur-5" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-5" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <filter id="Rectángulo_93" x="276" y="522" width="248" height="94" filterUnits="userSpaceOnUse">
+                    <feOffset dx="5" dy="5" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="3" result="blur-6" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-6" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#00cbe0" />
+                    <stop offset="1" stop-color="#5683ff" />
+                </linearGradient>
+                <filter id="Rectángulo_89" x="279" y="744" width="254" height="103" filterUnits="userSpaceOnUse">
+                    <feOffset dx="8" dy="15" input="SourceAlpha" />
+                    <feGaussianBlur stdDeviation="4" result="blur-7" />
+                    <feFlood flood-opacity="0.161" />
+                    <feComposite operator="in" in2="blur-7" />
+                    <feComposite in="SourceGraphic" />
+                </filter>
+                <clipPath id="clip-botones3">
+                    <rect width="796" height="1264" />
+                </clipPath>
+            </defs>
+            <g id="botones3" clip-path="url(#clip-botones3)">
+                <rect width="796" height="1264" fill="#fff" />
+                <g id="Rectángulo_85" data-name="Rectángulo 85" transform="translate(0 100)" fill="none"
+                    stroke="#5683ff" stroke-width="3">
+                    <rect width="230" height="76" rx="5" stroke="none" />
+                    <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                </g>
+                <g id="Rectángulo_86" data-name="Rectángulo 86" transform="translate(564 100)" fill="none"
+                    stroke="#00cbe0" stroke-width="3">
+                    <rect width="230" height="76" rx="5" stroke="none" />
+                    <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                </g>
+                <g id="Rectángulo_87" data-name="Rectángulo 87" transform="translate(280 100)" fill="none"
+                    stroke="#ff6e95" stroke-width="3">
+                    <rect width="230" height="76" rx="5" stroke="none" />
+                    <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                </g>
+                <text id="Normal" transform="translate(370 54)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Normal</tspan>
+                </text>
+                <text id="Volver" transform="translate(82 146)" fill="#707070" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Volver</tspan>
+                </text>
+                <text id="Aceptar" transform="translate(646 146)" fill="#707070" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Aceptar</tspan>
+                </text>
+                <text id="Cancelar" transform="translate(355 146)" fill="#707070" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Cancelar</tspan>
+                </text>
+                <text id="Hover" transform="translate(375 267)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Hover</tspan>
+                </text>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_90)">
+                    <g id="Rectángulo_90-2" data-name="Rectángulo 90" transform="translate(0 313)" fill="#5683ff"
+                        stroke="#5683ff" stroke-width="3">
+                        <rect width="230" height="76" rx="5" stroke="none" />
+                        <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                    </g>
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_91)">
+                    <rect id="Rectángulo_91-2" data-name="Rectángulo 91" width="230" height="76" rx="5"
+                        transform="translate(564 313)" fill="#69f6b0" />
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_92)">
+                    <g id="Rectángulo_92-2" data-name="Rectángulo 92" transform="translate(280 313)" fill="#ff6e95"
+                        stroke="#ff6e95" stroke-width="3">
+                        <rect width="230" height="76" rx="5" stroke="none" />
+                        <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                    </g>
+                </g>
+                <text id="Volver-2" data-name="Volver" transform="translate(82 359)" fill="#fff" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Volver</tspan>
+                </text>
+                <text id="Aceptar-2" data-name="Aceptar" transform="translate(646 359)" fill="#3b3b3b" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Aceptar</tspan>
+                </text>
+                <text id="Cancelar-2" data-name="Cancelar" transform="translate(355 359)" fill="#fff" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Cancelar</tspan>
+                </text>
+                <text id="Active" transform="translate(375 480)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Active</tspan>
+                </text>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_95)">
+                    <rect id="Rectángulo_95-2" data-name="Rectángulo 95" width="230" height="76" rx="5"
+                        transform="translate(0 526)" fill="#7fa1fe" />
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_94)">
+                    <rect id="Rectángulo_94-2" data-name="Rectángulo 94" width="230" height="76" rx="5"
+                        transform="translate(564 526)" fill="#acffd6" />
+                </g>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_93)">
+                    <rect id="Rectángulo_93-2" data-name="Rectángulo 93" width="230" height="76" rx="5"
+                        transform="translate(280 526)" fill="#ff9cb7" />
+                </g>
+                <text id="Volver-3" data-name="Volver" transform="translate(82 572)" fill="#fff" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Volver</tspan>
+                </text>
+                <text id="Aceptar-3" data-name="Aceptar" transform="translate(646 572)" fill="#707070" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Aceptar</tspan>
+                </text>
+                <text id="Cancelar-3" data-name="Cancelar" transform="translate(355 572)" fill="#fff" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Cancelar</tspan>
+                </text>
+                <text id="Log_in" data-name="Log in" transform="translate(374 693)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Log in</tspan>
+                </text>
+                <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectángulo_89)">
+                    <rect id="Rectángulo_89-2" data-name="Rectángulo 89" width="230" height="76" rx="5"
+                        transform="translate(283 744)" fill="url(#linear-gradient)" />
+                </g>
+                <text id="log_in-2" data-name="log in" transform="translate(361 790)" fill="#fff" font-size="30"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">log in</tspan>
+                </text>
+                <text id="Disable" transform="translate(371 914)" fill="#b7b7b7" font-size="16"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Disable</tspan>
+                </text>
+                <g id="Rectángulo_88" data-name="Rectángulo 88" transform="translate(283 965)" fill="none"
+                    stroke="#9e9c9c" stroke-width="3">
+                    <rect width="230" height="76" rx="5" stroke="none" />
+                    <rect x="1.5" y="1.5" width="227" height="73" rx="3.5" fill="none" />
+                </g>
+                <text id="Disabled" transform="translate(359 1011)" fill="#707070" font-size="20"
+                    font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Disabled</tspan>
+                </text>
+                <text id="Gráficos_Listas" data-name="Gráficos &amp; Listas" transform="translate(338 1132)"
+                    fill="#b7b7b7" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+                    <tspan x="0" y="0">Gráficos &amp; Listas</tspan>
+                </text>
+                <g id="Grupo_15" data-name="Grupo 15" transform="translate(-1417 1034)">
+                    <circle id="Elipse_92" data-name="Elipse 92" cx="38" cy="38" r="38" transform="translate(1729 149)"
+                        fill="#9e9c9c" />
+                    <g id="grafico-2" transform="translate(1742.5 162.5)">
+                        <path id="Trazado_52" data-name="Trazado 52" d="M0,0H49V49H0Z" fill="none" />
+                    </g>
+                </g>
+                <path id="Trazado_55" data-name="Trazado 55"
+                    d="M20.375,2V42.833A20.53,20.53,0,0,1,20.375,2ZM24.52,2V20.355H42.833A20.507,20.507,0,0,0,24.52,2Zm0,22.479V42.833A20.488,20.488,0,0,0,42.833,24.479Z"
+                    transform="translate(327.584 1198.583)" fill="#fff" />
+                <g id="Grupo_20" data-name="Grupo 20" transform="translate(-1417 1034)">
+                    <g id="Grupo_17" data-name="Grupo 17" transform="translate(97)">
+                        <circle id="Elipse_92-2" data-name="Elipse 92" cx="38" cy="38" r="38"
+                            transform="translate(1729 149)" fill="#9e9c9c" />
+                        <g id="grafico-2-2" data-name="grafico-2" transform="translate(1742.5 162.5)">
+                            <path id="Trazado_52-2" data-name="Trazado 52" d="M0,0H49V49H0Z" fill="none" />
+                        </g>
+                    </g>
+                    <path id="Trazado_56" data-name="Trazado 56"
+                        d="M4,25.244h9v-9H4ZM4,36.49h9v-9H4ZM4,14h9V5H4ZM15.247,25.244H42.238v-9H15.247Zm0,11.247H42.238v-9H15.247Zm0-31.49v9H42.238V5Z"
+                        transform="translate(1841 166)" fill="#fff" />
+                </g>
+            </g>
+        </svg>
+
         <div class="anew-problem__line" style="margin-top: -70px;"></div>
     </section>
-    <section class="anew-goals container-fluid">
+    <section class="anew-monitor container">
         <ol>
             <p style="color: #6C6E70; font-family: bitter;">Parte del proceso de la aplicación consiste en:</p>
             <li>Realizar una búsqueda de documentos</li>
@@ -769,37 +1219,83 @@
             <li>Inspeccionar documento.</li>
             <li>Visualizar esa lista de manera gráfica.</li>
         </ol>
+        <div class="anew__video-cont">
+            <video class="video-fluid video-one" autoplay loop muted>
+                <source src="../assets/img/welcome.mp4" type="video/mp4" />
+            </video>
+        </div>
         <img class="img-fluid" src="../assets/img/mac.png" alt="">
     </section>
     <section class="anew-goals container-fluid">
-            <h3>Metodología de</h3>
-            <h2 style="margin-bottom: 100px;">INVESTIGACIÓN</h2>
-            <div class="row">
-                <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
-                        <i class="far fa-file-alt"></i>
-                    <p class="anew-goals__p">Investigación de industria.</p>
-                </div>
-                <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
-                        <i class="far fa-user"></i>
-                    <p class="anew-goals__p">Creación de persona.</p>
-                </div>
+        <h3>Metodología de</h3>
+        <h2 style="margin-bottom: 100px;">INVESTIGACIÓN</h2>
+        <div class="row">
+            <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
+                <i class="far fa-file-alt"></i>
+                <p class="anew-goals__p">Investigación de industria.</p>
             </div>
-            <div class="row">
-                <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
-                        <i class="fas fa-sitemap"></i>
-                    <p class="anew-goals__p">User flow.</p>
-                </div>
-                <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
-                        <i class="fas fa-desktop"></i>  
-                    <p class="anew-goals__p">Prototipado y testing.</p>
-                </div>
-                <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
-                        <i class="far fa-file-code"></i>  
-                    <p class="anew-goals__p">Maquetado HTML/CSS.</p>
-                </div>
+            <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
+                <i class="far fa-user"></i>
+                <p class="anew-goals__p">Creación de persona.</p>
             </div>
-            
-        </section>
+        </div>
+        <div class="row">
+            <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
+                <i class="fas fa-sitemap"></i>
+                <p class="anew-goals__p">User flow.</p>
+            </div>
+            <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
+                <i class="fas fa-desktop"></i>
+                <p class="anew-goals__p">Prototipado y testing.</p>
+            </div>
+            <div class="anew-goals__cont col-sm-12 col-md-4 text-center">
+                <i class="far fa-file-code"></i>
+                <p class="anew-goals__p">Maquetado HTML/CSS.</p>
+            </div>
+        </div>
+    </section>
+    <section class="anew-problem result-p container-fluid">
+        <div class="anew-problem__cont col-sm-12 col-md-6 ml-auto">
+            <h2>RESULTADO</h2>
+            <p>Mientras avanzamos nos dimos cuenta que podiamos simplificar la mayor parte de los procesos secundarios
+                como por ejemplo la inspección de documentos con barras laterales emergentes en vez de generar una nueva
+                pantalla. Logrando asi destacar la función principal de la aplicación el cual es la busqueda y
+                representación de datos analizados con machine learning y deep learning sin necesidad de tener multiples
+                mesas de trabajo.</p>
+            <div style="margin-bottom: 100px;" class="anew-problem__line"></div>
+        </div>
+        <img style="width:100%;" src="../assets/img/resultados.png" alt="">
+    </section>
+    <!--<div style="margin-left: 31%; width: 500px; margin-top: 200px;" class="anew-problem__line"></div>-->
+    <section class="contact anew-contact text-center container-fluid panel " data-color="white">
+        <!-- <i style="margin-bottom: 20px; color:#ff2664; font-size: 24px;" class="far fa-smile"></i>-->
+        <h2 style="margin-bottom: 20px; color: #ff2664;" class="contact__h2">GRACIAS POR VISITAR.</h2>
+        <p class="contact__p" style="color: #dfdfdf;">Puedes escribir a mi correo <br>o revisar otros proyectos en el
+            enlace a behance.</p>
+        <!--<div class="contact__line"></div>-->
+        <p class="contact__mail" style="color: #dfdfdf;">Edwinosuarez<span>@</span>gmail.com</p>
+        <ul class="contact__iconos-rrss">
+            <li><a href="https://www.behance.net/edwinosuarb1f3" target="blank"><i class="fab fa-behance"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/suarezedwin/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer container-fluid" style="background-color:#313131;">
+        <div style="height: auto;" class="footer__rotate">
+            <a class="navbar-brand" href="#anew-home" style="z-index: 2000;"> <svg class="footer__down-icon"
+                    version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 35.7 36.3"
+                    style="enable-background:new 0 0 35.7 36.3;" xml:space="preserve">
+                    <style type="text/css">
+                    </style>
+                    <path class="st0" d="M33.3,3L33.3,3c-1-1-2.7-1-3.7,0L17.9,14.7L6.2,3c-1-1-2.7-1-3.7,0v0c-1,1-1,2.7,0,3.7L17.8,22c0,0,0.1,0,0.1,0
+                        c0,0,0.1,0,0.1,0L33.3,6.7C34.4,5.6,34.4,4,33.3,3z" />
+                    <path class="st0" d="M33.3,16.1L33.3,16.1c-1-1-2.7-1-3.7,0L17.9,27.8L6.2,16.1c-1-1-2.7-1-3.7,0v0c-1,1-1,2.7,0,3.7l15.3,15.3
+                        c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0l15.3-15.3C34.4,18.7,34.4,17.1,33.3,16.1z" />
+                </svg>
+            </a>
+        </div>
+    </footer>
 
 
 

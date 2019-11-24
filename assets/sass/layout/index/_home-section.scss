@@ -82,7 +82,7 @@
 .name,.name-anew{
     //position:fixed;
     p{
-        margin:80px 0px 0px 63px;
+        margin:80px 0px 0px 46px;
         position: absolute;
         writing-mode: vertical-rl;
         text-orientation: mixed;
@@ -99,7 +99,7 @@
         width: 1px;
         background-color: $third-black;
         position: absolute;
-        margin:183px 0px 0px 70px;
+        margin:183px 0px 0px 54px;
     }
 
 }
@@ -115,14 +115,20 @@
 
     i{
         color: $primary-pink;
-        font-size: 36px;
+        font-size: 28px;
+        
         
     }
 }
 
 .index-button{
-    right: 54px;
-    bottom: 150px;
+    right: 28px;
+    bottom: 74px;
+    border: 3px solid $primary-pink;
+    padding: 9px;
+    border-radius: 30px;
+   // background-color: $second-black ;
+   
 }
 
 
@@ -130,10 +136,14 @@
 @media (max-width: 480px) {
   
     .home {
-        padding: 120px 30px;
+        padding: 163px 30px;
         &__h1{
             font-size: $large;
         }
+    }
+
+    .header__nav{
+        
     }
     
   }

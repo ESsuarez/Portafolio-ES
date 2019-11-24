@@ -73,7 +73,7 @@
 
 .anew-monitor{
     padding-top: 12vh;
-    height: 800px;
+    
 }
 
 .anew-problem{
@@ -206,8 +206,51 @@
     font-size: 1em;
 }
 
-@media (max-width: 767px) {
-    
-    
-    
-  }
+.result-p{
+    padding: 0px;
+    height: 100%;
+    border-bottom: 1px solid $platinum;
+    padding-bottom: 100px;
+}
+
+.anew-contact{
+    padding: 150px 0px 0px 0px;
+    height: 70vh;
+    background-color: $second-black;
+}
+
+.anew-type{
+    height: 360px;
+}
+
+.colors-movile,.icon-movile,.boton-movile{
+    display: none;
+}
+
+.colors-desk,.boton-desk{
+    display: block;
+}
+
+.icon-desk{
+    display: block;
+    padding: 0px; height:243px;
+}
+
+.anew__video-cont{
+    width: 829px;
+    margin-top: 34px;
+    height: 528px;
+    margin-left: 142px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.video-one{
+    position: absolute;
+    width: 826px;
+    height: 538px;
+    margin-top: -25px;
+}
+
+
+
