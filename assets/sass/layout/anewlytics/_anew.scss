@@ -73,6 +73,21 @@
 
 .anew-monitor{
     padding-top: 12vh;
+
+    p{
+        margin-left: -15px;
+    }
+
+    ol{
+        margin-bottom: 100px;
+    }
+
+
+    li{
+        font-family:$bitter;
+        color: $third-black;
+        
+    }
     
 }
 

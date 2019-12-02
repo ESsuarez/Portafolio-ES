@@ -7997,6 +7997,13 @@ body {
 
 .anew-monitor {
   padding-top: 12vh; }
+  .anew-monitor p {
+    margin-left: -15px; }
+  .anew-monitor ol {
+    margin-bottom: 100px; }
+  .anew-monitor li {
+    font-family: "Bitter", serif;
+    color: #6C6E70; }
 
 .anew-problem {
   height: 100vh; }
@@ -8223,5 +8230,60 @@ body {
   .anew-resume {
     height: 56vh;
     padding: 65px 40px; } }
+.profile {
+  background-color: #313131; }
+  .profile__bg {
+    background-image: url(../img/ed.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh; }
+  .profile__description {
+    height: cover;
+    background-color: #dfdfdf; }
+  .profile h1 {
+    color: #6C6E70;
+    padding: 150px 0px 0px 10vw;
+    font-size: 2rem; }
+  .profile__cta {
+    border: 3px solid #ff2664;
+    padding: 13px 20px;
+    display: inline-block;
+    margin-left: 11vw;
+    margin-top: 12vh;
+    transition: background-color  .3s; }
+    .profile__cta a {
+      text-decoration: none;
+      color: #ff2664;
+      font-family: "Bitter", serif; }
+  .profile__cta:hover {
+    background-color: #01CAE0;
+    border: 0px;
+    font-weight: bold;
+    -webkit-box-shadow: -6px 10px 16px -9px rgba(0, 0, 0, 0.91);
+    -moz-box-shadow: -6px 10px 16px -9px rgba(0, 0, 0, 0.91);
+    box-shadow: -6px 10px 16px -9px rgba(0, 0, 0, 0.91); }
+  .profile__description__no-fluid-cont {
+    padding: 20vh 0px;
+    border-bottom: 1px solid #A0A0A0; }
+    .profile__description__no-fluid-cont h3 {
+      font-family: "Bitter", serif;
+      font-style: italic;
+      line-height: 2;
+      color: #999999;
+      font-size: 1.5em;
+      font-weight: bold; }
+    .profile__description__no-fluid-cont h2 {
+      font-size: 2rem;
+      font-family: "Bitter", serif;
+      color: #999999;
+      font-weight: 700;
+      margin-left: 3.5vw; }
+    .profile__description__no-fluid-cont p {
+      font-family: "Bitter", serif;
+      font-style: italic;
+      line-height: 2;
+      color: #6C6E70;
+      font-size: 1rem;
+      margin-bottom: 80px; }
 
 /*# sourceMappingURL=main.css.map */

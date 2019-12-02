@@ -1,0 +1,80 @@
+.profile{
+    
+    background-color: $second-black;
+
+    &__bg{
+        background-image: url(../img/ed.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 100vh;
+    }
+
+    &__description{
+        height: cover;
+        background-color: $platinum;
+    }
+
+    h1{
+        color: $third-black;
+        padding: 150px 0px 0px 10vw;
+        font-size: $large;
+    }
+
+    &__cta{
+        border: 3px solid $primary-pink;
+        padding: 13px 20px;
+        display: inline-block;
+        margin-left: 11vw;
+        margin-top: 12vh;
+        transition: background-color  .3s;
+        
+        a{
+            text-decoration: none;
+            color: $primary-pink;
+            font-family: $bitter;
+            
+        }
+        
+    }
+
+    &__cta:hover{
+        background-color: $sky-blue;
+        border: 0px;
+        font-weight: bold;
+        -webkit-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        -moz-box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+        box-shadow: -6px 10px 16px -9px rgba(0,0,0,0.91);
+    }
+
+    &__description__no-fluid-cont{
+        padding: 20vh 0px;
+        border-bottom: 1px solid $light-gray;
+
+        h3{
+            font-family: "Bitter", serif;
+            font-style: italic;
+            line-height: 2;
+            color: #999999;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        h2{
+            font-size: $large;
+            font-family: "Bitter", serif;
+            color: #999999;
+            font-weight: 700;
+            margin-left: 3.5vw;
+        }
+        p{
+            font-family: "Bitter", serif;
+            font-style: italic;
+            line-height: 2;
+            color: $third-black;
+            font-size: $medium;
+            margin-bottom: 80px;
+        }
+    }
+
+    
+}
