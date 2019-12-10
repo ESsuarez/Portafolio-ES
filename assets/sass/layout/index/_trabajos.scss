@@ -16,8 +16,8 @@
     &__bg{
         
         svg{
-            opacity: 0.03;
-            fill: $white;
+            opacity: 0.05;
+            fill: $second-black;
             right: -40px;
             text-align: right;
             position: fixed;
@@ -55,7 +55,7 @@
         font-family: $poppins;
         font-size: $x-large;
         line-height: 0.8;
-        color:$sky-blue;
+        color:$second-black;
         padding-bottom: 28px;
     }
 
@@ -64,14 +64,30 @@
         font-weight: $regular;
         font-family: $bitter;
         font-style: italic;
-        color: $platinum;
+        color: $primary-pink;
     }
 }
 
 @media (max-width: 480px) {
   
     .work {
-        padding: 120px 30px;
+        padding: 0px;
+        padding-top: 130px;
     }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 375px) {
+  
+   .work{
+       h2{
+           font-size: 2em;
+           margin-left: 29px;
+       }
+
+       &__img-anew{
+            margin-bottom: 84px;
+       }
+   }
     
   }

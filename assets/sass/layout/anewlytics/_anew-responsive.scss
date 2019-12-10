@@ -137,3 +137,50 @@
         padding: 65px 40px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  
+    .anew__bg-black{
+        padding-top: 29vh;
+    }
+
+    .anew-resume{
+        height: 71vh;
+    }
+
+    .anew__video-cont{
+        width: 74vw;
+        margin-top: 11px;
+        height: 31vh;
+        margin-left: 13vw;
+    }
+
+    .video-one{
+        width: 74vw;
+        height: 44vh;
+        margin-top: -15%;
+    }
+
+    .anew-problem{
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .anew-sketchs, .anew-wireframes{
+        padding: 10vh 7vw;
+    }
+
+    .anew-sketchs h2, .anew-wireframes h2, .anew-goals h2, .anew-problem h2{
+        font-size: 2em;
+
+    }
+
+    .anew-monitor ol{
+        padding-right: 6px;
+    }
+
+    .anew-contact{
+        padding: 150px 10px 0px 10px;
+    }
+     
+   }

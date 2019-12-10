@@ -11,7 +11,7 @@
 
     &__description{
         height: cover;
-        background-color: $platinum;
+        
     }
 
     h1{
@@ -61,10 +61,10 @@
 
         h2{
             font-size: $large;
-            font-family: "Bitter", serif;
+            font-family: $poppins;
             color: #999999;
             font-weight: 700;
-            margin-left: 3.5vw;
+            
         }
         p{
             font-family: "Bitter", serif;
@@ -73,6 +73,11 @@
             color: $third-black;
             font-size: $medium;
             margin-bottom: 80px;
+        }
+
+        a{
+            text-decoration: none;
+            color: $primary-pink;
         }
     }
 

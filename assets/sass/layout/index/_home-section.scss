@@ -1,6 +1,6 @@
 .home{
     padding-top:105px;
-    padding-left:7%;
+    padding-left:2%;
     position: relative;
     z-index: 900;
     width: 100vw;
@@ -17,13 +17,12 @@
     &__h1{
         font-family: $poppins;
         font-size: $x-large;
-        
         margin-bottom: 40px;
-        color:$second-black;
+        color:$third-black;
     }
 
     &__ui-ux{
-        color:$primary-barney;
+       color:$primary-barney;
       
     }
 
@@ -32,7 +31,7 @@
         font-family: $bitter;
         font-style:italic;
         line-height: 2;
-        color:$second-black;
+        color:$light-gray;
     }
 
     &__button{
@@ -131,6 +130,13 @@
    
 }
 
+.bg-color{
+    background-color: $second-black;
+   background-image: url(../img/ed-bg.svg);
+   background-repeat: no-repeat;
+   
+}
+
 
 
 @media (max-width: 480px) {
@@ -144,6 +150,28 @@
 
     .header__nav{
         
+    }
+    
+  }
+
+  @media (min-width: 320px) and (max-width: 375px) {
+  
+    .home {
+
+        &__h1{
+            font-size: 1.5em;
+        }
+
+        &__p{
+            margin-bottom: 22px;
+            line-height: 1.5;
+            font-size: 0.9em;
+        }
+    }
+
+    .bg-color{
+        
+        height: 624px;
     }
     
   }
